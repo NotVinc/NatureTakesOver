@@ -1,3 +1,5 @@
+using System.Collections;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,17 +19,26 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius = 0.1f;
     public LayerMask groundLayer;
 
+    [Header("Collectable Text")]
+    public TextMeshProUGUI collectableText;
+
     [HideInInspector] public float speedMultiplier = 1f;
+    [HideInInspector] public int currentCollectables = 0;
 
     private Rigidbody2D rb;
     private float lastGroundedTime;
     private int jumpCount;
     private bool canCoyote = true;
     private Vector2 moveInput;
+    private Vector2 lastCheckpoint;
+    private bool canMove = true;
+    
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        SetCheckpoint(this.gameObject.transform.position);
+
     }
 
     void Update()
@@ -40,9 +51,12 @@ public class PlayerController : MonoBehaviour
 
 
         float speed = moveSpeed * speedMultiplier;
-        rb.linearVelocity = new Vector2(moveInput.x * speed, rb.linearVelocity.y);
+        if(canMove) rb.linearVelocity = new Vector2(moveInput.x * speed, rb.linearVelocity.y);
+        if(!canMove) rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
 
         canCoyote = Time.time - lastGroundedTime <= coyoteTime;
+
+        collectableText.SetText(currentCollectables.ToString());
     }
 
     public bool isGrounded()
@@ -63,7 +77,7 @@ public class PlayerController : MonoBehaviour
 
     public void JumpInput(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.started && canMove)
         {
             if (jumpCount > 0 && (isGrounded() || canCoyote))
             {
@@ -80,12 +94,67 @@ public class PlayerController : MonoBehaviour
     /////////////////////////
 
     /////////////////////////
+    ///    Checkpoint     /// 
+    /////////////////////////
+
+    public void SetCheckpoint(Vector2 newCheckpoint)
+    {
+        lastCheckpoint = newCheckpoint;
+    }
+
+    public void ResetPlayer()
+    {
+        this.gameObject.transform.position = lastCheckpoint;
+    }
+
+    Coroutine loadPointC;
+
+    private IEnumerator loadPoint()
+    {
+        yield return new WaitForSeconds(1.5f);
+        rb.gravityScale = 1;
+        ResetPlayer();
+        yield return new WaitForSeconds(.4f);
+        FadeManager.instance.FadeIn();
+        yield return new WaitForSeconds(.8f);
+        canMove = true;
+
+    }
+
+    /////////////////////////
+
+    /////////////////////////
     ///    Collisiom      /// 
     /////////////////////////
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "oil") speedMultiplier = 0.4f;
+
+        if(collision.tag == "Deathzone")
+        {
+            rb.gravityScale = 0; 
+            rb.angularVelocity = 0; 
+            rb.linearVelocityY = 0; 
+            rb.linearVelocityX = 0; 
+            canMove = false;
+            FadeManager.instance.FadeOut();
+            if(loadPointC != null) StopCoroutine(loadPointC);
+
+            loadPointC = StartCoroutine(loadPoint());
+        }
+
+        if (collision.tag == "Checkpoint")
+        {
+            SetCheckpoint(this.gameObject.transform.position);
+        }
+
+        if(collision.tag == "Collectable")
+        {
+            Destroy(collision.gameObject);
+            currentCollectables++;
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)

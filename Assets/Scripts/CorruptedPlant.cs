@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CorruptedPlant : MonoBehaviour
 {
-    public Sprite g
+    public Sprite normalSprite;
     private SpriteRenderer renderer;
 
     private void Awake()
@@ -11,6 +11,6 @@ public class CorruptedPlant : MonoBehaviour
     }
     public void Healplant()
     {
-        renderer.sprite
+        renderer.sprite = normalSprite;
     }
 }

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -12,6 +13,10 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 14f;
     public float coyoteTime = 0.2f;
     public int maxJumps = 2;
+
+    [Header("Interact Settings")]
+    public float interactRadius = 10;
+    public Transform interactStart;
    
 
     [Header("Ground Check")]
@@ -22,8 +27,13 @@ public class PlayerController : MonoBehaviour
     [Header("Collectable Text")]
     public TextMeshProUGUI collectableText;
 
+
+    [Header("Inventory")]
+    public List<string> collectedIDs = new List<string>();
+
     [HideInInspector] public float speedMultiplier = 1f;
     [HideInInspector] public int currentCollectables = 0;
+    [HideInInspector] public Checkpoint lastCheckPoint;
 
     private Rigidbody2D rb;
     private float lastGroundedTime;
@@ -57,12 +67,23 @@ public class PlayerController : MonoBehaviour
         canCoyote = Time.time - lastGroundedTime <= coyoteTime;
 
         collectableText.SetText(currentCollectables.ToString());
+
+        HandleSpriteFlip();
     }
 
     public bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
+
+    private void HandleSpriteFlip()
+    {
+        if (moveInput.x > 0.01f)
+            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+        else if (moveInput.x < -0.01f)
+            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+    }
+
 
     /////////////////////////
 
@@ -90,6 +111,26 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+
+    public void InteractInput(InputAction.CallbackContext context)
+    {
+        if (context.started && canMove)
+        {
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(interactStart.position, interactRadius);
+            foreach (Collider2D col in colliders)
+            {
+                Interactable interactable = col.gameObject.GetComponent<Interactable>();
+                if(interactable != null)
+                {
+                    interactable.Interact();
+                    Debug.Log("interacted");
+                }
+            }
+        }
+    }
+
+
 
     /////////////////////////
 
@@ -148,13 +189,6 @@ public class PlayerController : MonoBehaviour
         {
             SetCheckpoint(this.gameObject.transform.position);
         }
-
-        if(collision.tag == "Collectable")
-        {
-            Destroy(collision.gameObject);
-            currentCollectables++;
-        }
-
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -174,6 +208,8 @@ public class PlayerController : MonoBehaviour
         {
             Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+            Gizmos.color = Color.aliceBlue;
+            Gizmos.DrawWireSphere(interactStart.position, interactRadius);
         }
     }
 

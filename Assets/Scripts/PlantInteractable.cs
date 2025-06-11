@@ -1,20 +1,26 @@
 using NUnit.Framework;
+using System.Collections;
 using UnityEngine;
 
 public class PlantInteractable : Interactable
 {
     public string correctID;
     public bool alreadyInteracted = false;
-    public SpriteRenderer plantsToChange;
+    public CorruptedPlant[] plantsToChange;
+
+
     public override void Interact()
     {
         //base.Interact();
         if(!canInteract) return;
         PlayerController player = FindAnyObjectByType<PlayerController>();
 
-        if (alreadyInteracted)
+        if (!alreadyInteracted)
         {
-
+            foreach (CorruptedPlant plant in plantsToChange)
+            {
+                plant.Healplant();
+            }
         }
 
         alreadyInteracted = true;

@@ -4,6 +4,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class PlayerController : MonoBehaviour
@@ -24,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public float plantDistance = 1f;
     public float groundRayLength = 3f;
     public float plantCheckRadius = 0.2f;
-    private GameObject lastPlant;
+    [HideInInspector] public GameObject lastPlant;
 
 
     [Header("Ground Check")]
@@ -39,6 +40,9 @@ public class PlayerController : MonoBehaviour
     [Header("Inventory")]
     public List<string> collectedIDs = new List<string>();
 
+    [Header("Pause Menu")]
+    public GameObject pauseMenu;
+
     [HideInInspector] public float speedMultiplier = 1f;
     [HideInInspector] public int currentCollectables = 0;
     [HideInInspector] public Checkpoint lastCheckPoint;
@@ -50,15 +54,16 @@ public class PlayerController : MonoBehaviour
     private bool canCoyote = true;
     private Vector2 moveInput;
     private Vector2 lastCheckpoint;
-    private bool canMove = true;
-    
+    public bool canMove = true;
+    bool isPaused = false;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<Animator>();
         SetCheckpoint(this.gameObject.transform.position);
-
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void FixedUpdate()
@@ -104,6 +109,7 @@ public class PlayerController : MonoBehaviour
         else if (moveInput.x < -0.01f)
             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
     }
+
 
     public void SwitchMove(bool newState)
     {
@@ -153,8 +159,6 @@ public class PlayerController : MonoBehaviour
                 if(interactable != null)
                 {
                     anim.SetTrigger("plantFlower");
-                    //interactable.Interact(this);
-                    Debug.Log("interacted");
                 }
             }
         }
@@ -164,7 +168,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started && canMove && plantPrefab != null && unlockedPlanting)
         {
-            anim.SetTrigger("plantFlower");
+            
             Vector3 facingDirection = transform.localScale.x > 0 ? Vector3.right : Vector3.left;
 
             Vector3 spawnCheckOrigin = transform.position + facingDirection * plantDistance + Vector3.up * 0.5f;
@@ -182,13 +186,52 @@ public class PlayerController : MonoBehaviour
                 Collider2D existing = Physics2D.OverlapCircle(plantPos, plantCheckRadius);
                 if (existing == null)
                 {
-                    if(lastPlant != null) Destroy(lastPlant);
+                    if (lastPlant != null)
+                    {
+                        lastPlant.GetComponent<PlantablePlatform>().RemoveMyEffect();
+                        Destroy(lastPlant);
+                    }
                     lastPlant = Instantiate(plantPrefab, plantPos, Quaternion.identity);
+                    anim.SetTrigger("plantFlower");
                 }
             }
         }
     }
 
+    public void PauseInput(InputAction.CallbackContext context)
+    {
+        if(context.started)
+        {
+            PauseAction();
+        }
+    }
+
+    public void PauseAction()
+    {
+        if (isPaused)
+        {
+            Time.timeScale = 1f;
+            pauseMenu.SetActive(false);
+            isPaused = false;
+            GetComponent<PlayerInput>().SwitchCurrentActionMap("Player");
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        else
+        {
+            pauseMenu.SetActive(true);
+            GetComponent<PlayerInput>().SwitchCurrentActionMap("UI");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            isPaused = true;
+            Time.timeScale = 0f;
+        }
+    }
+
+    public void ExitGame()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 
 
 

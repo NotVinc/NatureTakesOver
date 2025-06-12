@@ -101,3 +101,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normalSprite: {fileID: 21300000, guid: 2a1a089b227c17041b48c733c5b80172, type: 3}
+  infectedSprite: {fileID: 21300000, guid: 3557186335c6cce4c8d2162464e5001a, type: 3}

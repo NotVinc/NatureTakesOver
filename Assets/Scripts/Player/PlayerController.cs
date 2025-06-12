@@ -87,6 +87,7 @@ public class PlayerController : MonoBehaviour
         collectableText.SetText(currentCollectables.ToString());
 
         HandleSpriteFlip();
+        CheckForInteractables();
     }
 
     public bool isGrounded()
@@ -231,6 +232,41 @@ public class PlayerController : MonoBehaviour
     public void ExitGame()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+
+    /////////////////////////
+
+    /////////////////////////
+    ///   Interactable    /// 
+    /////////////////////////
+
+
+    public void CheckForInteractables()
+    {
+        bool isInRange =false;
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(interactStart.position, interactRadius);
+        foreach (Collider2D col in colliders)
+        {
+            Interactable interactable = col.gameObject.GetComponent<Interactable>();
+            if (interactable != null)
+            {
+                AnimatorStateInfo state = anim.GetCurrentAnimatorStateInfo(0);
+                float normalizedTime = state.normalizedTime % 1f;
+
+                if (state.IsName("Run"))
+                {
+                    anim.Play("RunInteractRadius", 0, normalizedTime);
+                }
+                else if (state.IsName("Idle"))
+                {
+                    anim.Play("IdleInteractRadius", 0, normalizedTime);
+                }
+                isInRange = true;
+            }
+        }
+
+        anim.SetBool("inInteractRadius", isInRange);
     }
 
 

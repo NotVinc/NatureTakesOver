@@ -16,6 +16,14 @@ public class CartoonIntro : MonoBehaviour
         display.sprite = slides[0];
     }
 
+    private void FixedUpdate()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            NextSlide();
+        }
+    }
+
     public void NextSlide()
     {
         index++;

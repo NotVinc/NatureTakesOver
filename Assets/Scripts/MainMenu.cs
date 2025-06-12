@@ -4,8 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public string firstLevel = "SampleScene";
-
+    public GameObject display;
     public void StartGame()
     {
         StartCoroutine(waitBeforeGoInLevel());
@@ -25,6 +24,6 @@ public class MainMenu : MonoBehaviour
     IEnumerator waitBeforeGoInLevel()
     {
         yield return new WaitForSeconds(1.7f);
-        SceneManager.LoadScene(firstLevel);
+        display.SetActive(true);
     }
 }

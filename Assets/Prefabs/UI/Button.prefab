@@ -48,8 +48,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 424380281526599981, guid: ba29ab3c424b68241bdcdd8343cacb07, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -181,7 +181,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 424380281526599981, guid: ba29ab3c424b68241bdcdd8343cacb07, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -279,6 +279,7 @@ GameObject:
   - component: {fileID: 311568062122587494}
   - component: {fileID: 4091163308766955430}
   - component: {fileID: 3219237427208745100}
+  - component: {fileID: 4311939509250611592}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -389,9 +390,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 916741849942465585}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 4311939509250611592}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ClickSound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -430,9 +431,9 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 4875628927420115524}
-          m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-          m_MethodName: Play
+        - m_Target: {fileID: 4311939509250611592}
+          m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+          m_MethodName: ClickSound
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -442,3 +443,25 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &4311939509250611592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7845685775822595888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1952448ad517a04da97a33ef68207e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickSounds:
+  - {fileID: 8300000, guid: f90107706fc538740a566c2a4e55e835, type: 3}
+  - {fileID: 8300000, guid: 1f31e20e0a0d90349a15fc6890f7e0ef, type: 3}
+  - {fileID: 8300000, guid: d6f7a57b697a1fc44aa6abf9282e7266, type: 3}
+  hoverSounds:
+  - {fileID: 8300000, guid: af338c555a852b349b095ccf50d43c27, type: 3}
+  - {fileID: 8300000, guid: 4444404f26b22e248b0291ae3bacc193, type: 3}
+  - {fileID: 8300000, guid: 27bbabbdf7c810a458e3997f6c497c21, type: 3}
+  clickSource: {fileID: 916741849942465585}
+  hoverSource: {fileID: 4875628927420115524}

@@ -49,6 +49,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96baa6b5fd7869e4a92948b6ca7f60a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  image: {fileID: 39688698137439532}
+  playOnAwake: 1
 --- !u!1 &6341541741495936386
 GameObject:
   m_ObjectHideFlags: 0

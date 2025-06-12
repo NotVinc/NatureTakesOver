@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
@@ -17,12 +17,20 @@ public class PlayerController : MonoBehaviour
     [Header("Interact Settings")]
     public float interactRadius = 10;
     public Transform interactStart;
-   
+
+    [Header("Planting")]
+    public bool unlockedPlanting = true;
+    public GameObject plantPrefab;
+    public float plantDistance = 1f;
+    public float groundRayLength = 3f;
+    public float plantCheckRadius = 0.2f;
+    private GameObject lastPlant;
+
 
     [Header("Ground Check")]
     public Transform groundCheck;
     public float groundCheckRadius = 0.1f;
-    public LayerMask groundLayer;
+    public LayerMask[] groundLayer;
 
     [Header("Collectable Text")]
     public TextMeshProUGUI collectableText;
@@ -36,6 +44,7 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public Checkpoint lastCheckPoint;
 
     private Rigidbody2D rb;
+    private Animator anim;
     private float lastGroundedTime;
     private int jumpCount;
     private bool canCoyote = true;
@@ -47,17 +56,21 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponentInChildren<Animator>();
         SetCheckpoint(this.gameObject.transform.position);
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (isGrounded())
         {
             lastGroundedTime = Time.time;
             jumpCount = maxJumps;
         }
+
+        anim.SetFloat("magnitude", rb.linearVelocity.magnitude);
+        anim.SetBool("isGrounded", isGrounded());
 
 
         float speed = moveSpeed * speedMultiplier;
@@ -73,7 +86,15 @@ public class PlayerController : MonoBehaviour
 
     public bool isGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        bool grounded = false;
+        foreach(LayerMask layer in groundLayer)
+        {
+            if(Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, layer))
+            {
+                grounded = true;
+            }
+        }
+        return grounded;
     }
 
     private void HandleSpriteFlip()
@@ -83,6 +104,7 @@ public class PlayerController : MonoBehaviour
         else if (moveInput.x < -0.01f)
             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
     }
+
 
 
     /////////////////////////
@@ -123,12 +145,41 @@ public class PlayerController : MonoBehaviour
                 Interactable interactable = col.gameObject.GetComponent<Interactable>();
                 if(interactable != null)
                 {
-                    interactable.Interact();
+                    interactable.Interact(this);
                     Debug.Log("interacted");
                 }
             }
         }
     }
+
+    public void PlantInput(InputAction.CallbackContext context)
+    {
+        if (context.started && canMove && plantPrefab != null && unlockedPlanting)
+        {
+            Vector3 facingDirection = transform.localScale.x > 0 ? Vector3.right : Vector3.left;
+
+            Vector3 spawnCheckOrigin = transform.position + facingDirection * plantDistance + Vector3.up * 0.5f;
+            Debug.DrawLine(spawnCheckOrigin, spawnCheckOrigin + Vector3.down * groundRayLength, Color.red, 1f);
+            RaycastHit2D hit = Physics2D.CircleCast(spawnCheckOrigin, groundCheckRadius, Vector2.down, groundRayLength, groundLayer[0]);
+
+            if (hit.collider != null)
+            {
+                Vector3 plantPos = new Vector3(
+                    Mathf.Round(hit.point.x),
+                    Mathf.Round(hit.point.y + 0.5f),
+                    0f
+                );
+
+                Collider2D existing = Physics2D.OverlapCircle(plantPos, plantCheckRadius);
+                if (existing == null)
+                {
+                    if(lastPlant != null) Destroy(lastPlant);
+                    lastPlant = Instantiate(plantPrefab, plantPos, Quaternion.identity);
+                }
+            }
+        }
+    }
+
 
 
 
@@ -210,6 +261,11 @@ public class PlayerController : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
             Gizmos.color = Color.aliceBlue;
             Gizmos.DrawWireSphere(interactStart.position, interactRadius);
+
+
+            Vector3 facingDirection = transform.localScale.x > 0 ? Vector3.right : Vector3.left;
+            Vector3 spawnCheckOrigin = transform.position + facingDirection * plantDistance;
+
         }
     }
 

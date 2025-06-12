@@ -22,10 +22,11 @@ public class Checkpoint : MonoBehaviour
 
         if (checkpointPoint != null && player != null)
         {
-            if(player.lastCheckPoint != null)
+            if(player.lastCheckPoint != null && player.lastCheckPoint != this)
                 player.lastCheckPoint.isActive = false;
 
             player.SetCheckpoint(checkpointPoint.position);
+            if(!isActive) GetComponent<AudioSource>().Play();
             isActive = true;
             player.lastCheckPoint = this;
         }

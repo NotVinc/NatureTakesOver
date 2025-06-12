@@ -9,27 +9,41 @@ public class PlantInteractable : Interactable
     public CorruptedPlant[] plantsToChange;
 
 
-    public override void Interact()
+    public override void Interact(PlayerController trigger)
     {
         //base.Interact();
         if(!canInteract) return;
-        PlayerController player = FindAnyObjectByType<PlayerController>();
 
-        if (!alreadyInteracted)
+        if(correctID == string.Empty)
         {
-            foreach (CorruptedPlant plant in plantsToChange)
+
+            onInteract?.Invoke();
+            if (!alreadyInteracted)
             {
-                plant.Healplant();
+                foreach (CorruptedPlant plant in plantsToChange)
+                {
+                    plant.Healplant();
+                }
             }
+            alreadyInteracted = true;
         }
-
-        alreadyInteracted = true;
-        foreach (string id in player.collectedIDs)
+        else
         {
-            if (id == correctID)
+            foreach (var id in trigger.collectedIDs)
             {
-                player.collectedIDs.Remove(id);
-                onInteract?.Invoke();
+                if (id == correctID)
+                {
+                    trigger.collectedIDs.Remove(id);
+                    onInteract?.Invoke();
+                    if (!alreadyInteracted)
+                    {
+                        foreach (var plant in plantsToChange)
+                        {
+                            plant.Healplant();
+                        }
+                    }
+                    alreadyInteracted = true;
+                }
             }
         }
 

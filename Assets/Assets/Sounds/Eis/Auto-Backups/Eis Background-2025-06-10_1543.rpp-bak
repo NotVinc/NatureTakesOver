@@ -1,0 +1,1990 @@
+<REAPER_PROJECT 0.1 "7.11/win64" 1749562993
+  RIPPLE 0
+  GROUPOVERRIDE 1 0 0
+  AUTOXFADE 129
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 305
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3455 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 57.22653061224322
+  ZOOM 13.15553873653416 0 0
+  VZOOMEX 2 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  MIDIEDITOR -1070883285 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxhJAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN "Eis Background"
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  MISCOPTS 1
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 86.27544813866108
+  SELECTION2 0 86.27544813866108
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {93B83D94-AD04-44B0-B36C-338B3582CBBA}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {A0B4DFB4-7A30-4DDB-BCD6-C310186E1BE1}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {309800D8-9345-430F-A173-EB6C62EB1379}
+    NAME Birds
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.05807912030453 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {309800D8-9345-430F-A173-EB6C62EB1379}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.53657667211023
+      SNAPOFFS 0
+      LENGTH 9.05301154483412
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8856FA1C-F1A9-4D9D-8282-5CDAAB717146}
+      IID 41
+      NAME "ES_Owl, Eared 01 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3A633C15-E6D5-429E-9BC2-3394B63BE636}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Owl, Eared 01 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.66274156116481
+      SNAPOFFS 0
+      LENGTH 0.77967053323701
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.19261726691136 0 1 0 0 0
+      FADEOUT 1 0.16054360387905 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1CD59133-9D5B-47FE-9B9F-DF30FA12D853}
+      IID 49
+      NAME animal-bird-of-prey-snowy-owl-twitter-soft-01.wav
+      VOLPAN 0.470588 0 1 -1
+      SOFFS 0.09630863342966
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9C4C8A10-CAA6-45FD-9453-B031C7694FBE}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\animal-bird-of-prey-snowy-owl-twitter-soft-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 20.87145670746712
+      SNAPOFFS 0
+      LENGTH 7.79480095516588
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.16510051449546 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {005A2F07-8BA1-4C48-8BCA-E51B4FFB7878}
+      IID 41
+      NAME "ES_Owl, Eared 01 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 9.05301154483412
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {11603A59-1BD8-4EC3-B143-45450A923011}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Owl, Eared 01 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 31.46963482769206
+      SNAPOFFS 0
+      LENGTH 0.87597916666667
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6977A338-5002-4104-8F86-85E5CB110380}
+      IID 64
+      NAME animal-bird-of-prey-snowy-owl-twitter-soft-01.wav
+      VOLPAN 0.470588 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD723760-1D36-4976-B46E-9A278E734B06}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\animal-bird-of-prey-snowy-owl-twitter-soft-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 32.98990704156731
+      SNAPOFFS 0
+      LENGTH 1.734
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F162EF92-0E7B-4515-BFAB-09F51C03B032}
+      IID 65
+      NAME animal-bird-of-prey-snowy-owl-twitter-loud-02.wav
+      VOLPAN 0.352941 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5FAFC572-87B6-4308-A6D0-EEF3DF9ECB3A}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\animal-bird-of-prey-snowy-owl-twitter-loud-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 36.94261479773559
+      SNAPOFFS 0
+      LENGTH 16.8478125
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D19BE735-478A-4B73-BB89-B7BD3CAFC586}
+      IID 66
+      NAME "ES_Owl, Eared 01 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CFB882F9-6501-4087-A857-BD6642886A52}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Owl, Eared 01 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 68.48826323611274
+      SNAPOFFS 0
+      LENGTH 0.87597916666665
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {58BB3A69-8B83-43FE-82AC-BA69834B1EC1}
+      IID 64
+      NAME animal-bird-of-prey-snowy-owl-twitter-soft-01.wav
+      VOLPAN 0.470588 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {330D4A43-F2A2-406E-A159-0DAEF36B2809}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\animal-bird-of-prey-snowy-owl-twitter-soft-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 70.00853544996198
+      SNAPOFFS 0
+      LENGTH 1.734
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0462E081-E3C5-4BA2-B728-76373747BF3E}
+      IID 65
+      NAME animal-bird-of-prey-snowy-owl-twitter-loud-02.wav
+      VOLPAN 0.352941 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7242A8E-7BE3-4836-BF76-2B5BE75190D3}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\animal-bird-of-prey-snowy-owl-twitter-loud-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 73.65718876331506
+      SNAPOFFS 0
+      LENGTH 9.05301154483404
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6B931489-1935-4D3F-AC57-E32D831D292F}
+      IID 41
+      NAME "ES_Owl, Eared 01 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {71BAE715-5614-4570-A8C7-5EA7B87AD33F}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Owl, Eared 01 - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {BB4FFD8F-A6F0-4D08-B26B-91812CB8E3A3}
+    NAME Wolf
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.01997929956493 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 1
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BB4FFD8F-A6F0-4D08-B26B-91812CB8E3A3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 6.08108885558845
+      SNAPOFFS 0
+      LENGTH 9.23187043553753
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6AE320C9-DD50-4738-96AF-763C47ABEFC0}
+      IID 46
+      NAME "ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      VOLPAN 0.742857 0 1 -1
+      SOFFS 5.07684082074096
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {39AA0367-1937-4327-98DD-1FC709BE51EF}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 16.67515196404097
+      SNAPOFFS 0
+      LENGTH 8.28254247718867
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C54533F1-A32D-49D5-AC3E-CB278788248D}
+      IID 46
+      NAME "ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      VOLPAN 0.742857 0 1 -1
+      SOFFS 16.04226665848077
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A309AEA4-2AC8-45B0-9CD0-0F90F2568777}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 46.74497577544341
+      SNAPOFFS 0
+      LENGTH 4.19630474343187
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.28892590037276 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9119CF92-C31B-4E5E-945D-B2C0D171C9EF}
+      IID 46
+      NAME "ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      VOLPAN 0.742857 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {63D1FD85-D45A-449F-B663-7ECE16C21B5F}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 51.8218165961657
+      SNAPOFFS 0
+      LENGTH 9.23187043553752
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8803AEAE-049A-4CCF-ABA0-A3DAB9209C52}
+      IID 46
+      NAME "ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      VOLPAN 0.742857 0 1 -1
+      SOFFS 5.07684082074096
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D2403462-27BA-47FD-9CDA-2A0B7E678632}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 62.7872424339507
+      SNAPOFFS 0
+      LENGTH 8.28254247718849
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {986D862E-9440-456A-B31F-E0DCF8686D5C}
+      IID 46
+      NAME "ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      VOLPAN 0.742857 0 1 -1
+      SOFFS 16.04226665848077
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8EC1D1D1-C8EF-450F-AE16-51061818B4DC}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Werewolf, Wolf, Howling, Distant - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {F3F90410-0DEB-4B01-A011-42F8BE94D2A9}
+    NAME Fox
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.00758559130429 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F3F90410-0DEB-4B01-A011-42F8BE94D2A9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 2.91677575608637
+      SNAPOFFS 0
+      LENGTH 3.74227832856365
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.50905991969432 0 1 0 0 0
+      FADEOUT 1 1.58221326391478 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BA927D07-4931-4591-87CB-94266BFF340A}
+      IID 32
+      NAME "ES_Fox, Red, Mating Call Long - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.76475963108891
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {62A25951-2611-42F4-B4BA-15749491CCF7}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fox, Red, Mating Call Long - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 25.54057319347147
+      SNAPOFFS 0
+      LENGTH 8.00571204034746
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 1.36207924458751 0 1 0 0 0
+      FADEOUT 1 6.25839826193721 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {49836D77-6CAC-4478-B39A-C51056A0A3CA}
+      IID 32
+      NAME "ES_Fox, Red, Mating Call Long - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 9.50703795965256
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {374D0BE6-1B54-4CA2-B6E2-AE8B5B010941}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fox, Red, Mating Call Long - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 60.20277967032561
+      SNAPOFFS 0
+      LENGTH 3.74227832856367
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.50905991969432 0 1 0 0 0
+      FADEOUT 1 1.0657308584107 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0A237D62-1FF6-4F67-82C2-055DCE1C1AAF}
+      IID 32
+      NAME "ES_Fox, Red, Mating Call Long - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.76475963108891
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE5F82BB-A81E-40CA-8604-D1EF8728AB07}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fox, Red, Mating Call Long - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {5DAB52F7-BABA-4E96-ABA3-226127236BFE}
+    NAME eichhörnchen
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.00788226240542 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5DAB52F7-BABA-4E96-ABA3-226127236BFE}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 5.77851800734093
+      SNAPOFFS 0
+      LENGTH 2.93547036173
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.68791881039773 0 1 0 0 0
+      FADEOUT 1 0.77540529708113 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CF8F52B-5808-47D9-B489-F30996D7E430}
+      IID 43
+      NAME "ES_Red Squirrel, Call, Close - Epidemic Sound.wav"
+      VOLPAN 0.705882 0 1 -1
+      SOFFS 0.15134213827
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F6CA37D2-F7F8-414E-8E14-0ADCEB7A4789}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Red Squirrel, Call, Close - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 22.37111971413417
+      SNAPOFFS 0
+      LENGTH 2.93547036172987
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.68791881039766 0 1 0 0 0
+      FADEOUT 1 0.77540529708108 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {99348555-5FCE-464F-BB33-7C5EA499A946}
+      IID 43
+      NAME "ES_Red Squirrel, Call, Close - Epidemic Sound.wav"
+      VOLPAN 0.705882 0 1 -1
+      SOFFS 0.15134213827
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CDBD3A76-0E7E-4E87-8404-3928F39AB982}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Red Squirrel, Call, Close - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 48.57269723401271
+      SNAPOFFS 0
+      LENGTH 2.93547036172996
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.68791881039772 0 1 0 0 0
+      FADEOUT 1 0.77540529708108 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B93473F3-8844-47CE-9241-6A830CE0F405}
+      IID 43
+      NAME "ES_Red Squirrel, Call, Close - Epidemic Sound.wav"
+      VOLPAN 0.705882 0 1 -1
+      SOFFS 0.15134213827
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3E3C3E74-78C3-483C-A83D-15B3546C0103}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Red Squirrel, Call, Close - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 76.24165152694013
+      SNAPOFFS 0
+      LENGTH 2.93547036172984
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.6879188103976 0 1 0 0 0
+      FADEOUT 1 0.77540529708111 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B9199F5A-82E7-414B-ACA0-077EF8DB59EC}
+      IID 43
+      NAME "ES_Red Squirrel, Call, Close - Epidemic Sound.wav"
+      VOLPAN 0.705882 0 1 -1
+      SOFFS 0.15134213827
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0582345E-8A5F-4730-8D98-AFA639BB8C12}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Red Squirrel, Call, Close - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {C012A311-B610-41B3-9440-2E23F45612E8}
+    NAME Ice
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.00469402571564 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C012A311-B610-41B3-9440-2E23F45612E8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.20637564314529
+      SNAPOFFS 0
+      LENGTH 2.052
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {23A62623-1079-49D0-B5F3-423B6322DCED}
+      IID 12
+      NAME foley-ice-ice-cube-handling-glass-medium-01.wav
+      VOLPAN 0.685714 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {893AE7BC-94B4-4F4A-A5DC-EA1F1B927EAB}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.09563464683015
+      SNAPOFFS 0
+      LENGTH 2.74497916666667
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.63994760688998 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EAE4D3E8-325F-428D-AC9A-32C43CF41BB8}
+      IID 13
+      NAME foley-ice-ice-cube-handling-glass-medium-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0446C3AA-F2C1-4E2E-AACB-86835D7A3DE7}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.75401474477258
+      SNAPOFFS 0
+      LENGTH 2.22066656211397
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 1.3538888610115 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {11C2B09B-ED37-4E29-8461-C4DF338D8E8C}
+      IID 12
+      NAME foley-ice-ice-cube-handling-glass-medium-01.wav
+      VOLPAN 0.685714 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B34D8C12-8FF0-4036-97BB-615BC9A437AA}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.62079244587505
+      SNAPOFFS 0
+      LENGTH 2.74497916666664
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0 1.3538888610115 1 1 0 0
+      FADEOUT 1 0.63994760688996 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4951F427-2C4B-4A15-A5CF-02C35912B4EF}
+      IID 13
+      NAME foley-ice-ice-cube-handling-glass-medium-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {224CE108-194F-45C1-AE84-B1DFF1C4B04F}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 22.8801796338591
+      SNAPOFFS 0
+      LENGTH 2.052
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 1.18522229892947 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AC9CE355-A09D-4BCB-B14D-00F3C14C9758}
+      IID 12
+      NAME foley-ice-ice-cube-handling-glass-medium-01.wav
+      VOLPAN 0.587755 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAFB2535-3913-431F-B46F-64776EDE9F1F}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 23.74695733492963
+      SNAPOFFS 0
+      LENGTH 2.74497916666667
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0 1.18522229892947 1 1 0 0
+      FADEOUT 1 0.63994760688999 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8732D21F-A24F-402F-B66C-ED85B030723B}
+      IID 13
+      NAME foley-ice-ice-cube-handling-glass-medium-02.wav
+      VOLPAN 0.857143 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A45C672F-8503-4CFB-BC8B-5940BAD8EC15}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 34.73822008754899
+      SNAPOFFS 0
+      LENGTH 2.052
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9864819A-7588-417F-8DA9-52C9A3DF121A}
+      IID 12
+      NAME foley-ice-ice-cube-handling-glass-medium-01.wav
+      VOLPAN 0.744489 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D1674F3-30AF-40C6-84FE-9067B27F765F}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 37.62747909123384
+      SNAPOFFS 0
+      LENGTH 2.74497916666674
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.63994760689002 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EEE871A7-40C7-4015-9336-111CF046ECC2}
+      IID 13
+      NAME foley-ice-ice-cube-handling-glass-medium-02.wav
+      VOLPAN 1.085714 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {56A4DA80-01CE-4237-9E63-C4BD22D3184B}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 50.70107833346867
+      SNAPOFFS 0
+      LENGTH 2.052
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0C27ECF7-684E-481B-95A9-74309AF61F12}
+      IID 12
+      NAME foley-ice-ice-cube-handling-glass-medium-01.wav
+      VOLPAN 0.744489 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B808891F-B2B5-49E1-B48F-8AF50ED7FF3B}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 53.59033733715352
+      SNAPOFFS 0
+      LENGTH 2.74497916666671
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.63994760689002 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C83EC3EB-B63F-4DFF-9D64-8BA98A4AAF97}
+      IID 13
+      NAME foley-ice-ice-cube-handling-glass-medium-02.wav
+      VOLPAN 1.085714 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D5D89621-9205-4008-AA5F-8FFB720B5772}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 63.24871743509592
+      SNAPOFFS 0
+      LENGTH 2.052
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 1.14551468269137 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6248B975-7991-43E7-94FA-334E395B0948}
+      IID 12
+      NAME foley-ice-ice-cube-handling-glass-medium-01.wav
+      VOLPAN 0.744489 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E137A6DE-3DEE-4FFB-97BB-52BC9E9778A9}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 64.11549513628289
+      SNAPOFFS 0
+      LENGTH 2.74497916666671
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0 1.18522229881306 1 1 0 0
+      FADEOUT 1 0.63994760688998 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6C155E45-8FB5-491C-AEF7-7BB7A2417E4B}
+      IID 13
+      NAME foley-ice-ice-cube-handling-glass-medium-02.wav
+      VOLPAN 1.085714 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE8CD0D4-738C-4D0E-9385-BBF31E0FDBBB}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 73.37488232417546
+      SNAPOFFS 0
+      LENGTH 2.052
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 1.18522229889753 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ECE5ED91-6C08-4E67-9F6C-2AE44DC48628}
+      IID 12
+      NAME foley-ice-ice-cube-handling-glass-medium-01.wav
+      VOLPAN 0.638134 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {487F5F87-6B1B-4FF8-9C44-66358448E5B4}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 74.24166002524591
+      SNAPOFFS 0
+      LENGTH 2.74497916666668
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0 1.18522229892946 1 1 0 0
+      FADEOUT 1 0.63994760689006 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {296C8A3D-5E1B-4945-B701-EC4A40E7F56A}
+      IID 13
+      NAME foley-ice-ice-cube-handling-glass-medium-02.wav
+      VOLPAN 0.930612 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7B9F38BB-4299-40F8-99A4-9C572C8D6D8F}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\foley-ice-ice-cube-handling-glass-medium-02.wav"
+      >
+    >
+  >
+  <TRACK {223785EF-356D-4237-9EE0-138EC66F5D90}
+    NAME Snow
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.01679098080048 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {223785EF-356D-4237-9EE0-138EC66F5D90}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.05503350484651
+      SNAPOFFS 0
+      LENGTH 2.33892395533759
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 1.19697873009205 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CB7CB99-0FCC-46E8-B31C-5F83B03FB3C8}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FC4DDE58-7DAA-4430-90ED-43198006297B}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.19697873009205
+      SNAPOFFS 0
+      LENGTH 2.43523258880796
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.01 1.19697873009205 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {952F6F97-32A7-4680-9550-E465A203226C}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 2.9718092609035
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DEFB4769-284F-4F59-8537-8BCD938F0ECB}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.57214236422161
+      SNAPOFFS 0
+      LENGTH 4.05872098134661
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.16510051449545 0 1 0 0 0
+      FADEOUT 1 0.23389239553524 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5D99B2D4-F551-42F7-8BBD-48F36C3700FE}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 10.26374865111944
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C4959630-A5CE-4003-9234-60E9E123CB0B}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.95099347486596
+      SNAPOFFS 0
+      LENGTH 2.98556763712614
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BAD8C235-616F-481A-A6A8-2F6E06B2A503}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.257143 0 1 -1
+      SOFFS 15.53320673876605
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E48AB9CA-8A3F-42A4-9DFE-C739635ED1F6}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.42682720570547
+      SNAPOFFS 0
+      LENGTH 1.96744779766392
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.82550257247727 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CCFE5066-52FA-4B21-881D-251A0005C6DB}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6C4698BD-63C0-4156-B581-853CBD2ACC10}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 20.56877243089212
+      SNAPOFFS 0
+      LENGTH 2.43523258880796
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.82550257247727 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {69886661-8325-450A-9700-10C23BA0D0A4}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 2.9718092609035
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B66E72A4-AD4D-448F-9F76-B0253CC1E5D0}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 24.84762743156599
+      SNAPOFFS 0
+      LENGTH 4.05872098134661
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.16510051449547 0 1 0 0 0
+      FADEOUT 1 0.23389239553528 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1F9F2E44-E185-49DC-A3AD-7DE14CAE9323}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 10.26374865111944
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F6A7C1D5-63FC-4B1F-A555-D3951BC7C5FB}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 36.9426147976998
+      SNAPOFFS 0
+      LENGTH 2.98556763712617
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C1E89C16-875E-4518-8E95-9C657CC017A4}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.257143 0 1 -1
+      SOFFS 15.53320673876605
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D367DD9-24F9-4EDE-B472-CAB7A418B7EB}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 42.41844852847199
+      SNAPOFFS 0
+      LENGTH 1.96744779766384
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.82550257247716 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7FAC8D8E-F6FC-4E46-A76D-A7CF120EBA52}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4A1ECA38-F7CC-42BD-92DF-4CAF955702B8}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 43.56039375365866
+      SNAPOFFS 0
+      LENGTH 2.43523258880793
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.82550257247716 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {01B83AC9-8CFD-4AFC-8473-52FE54853CA0}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 2.9718092609035
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7A7CC6A1-F419-4E7E-BB06-1DEC9873C761}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 54.001548314694
+      SNAPOFFS 0
+      LENGTH 2.33892395533758
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 1.19697873003452 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C78B5288-36F1-437A-85F6-F85251B8C57E}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A995BCEC-D0FD-4247-BAE5-45234C4F2AD3}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 55.14349353999706
+      SNAPOFFS 0
+      LENGTH 2.43523258880795
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.01 1.19697873003452 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5EFE1034-7919-4DB0-8CE8-4846DBBA073D}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 2.9718092609035
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8180964B-B926-44DB-903A-81B12F420ABE}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 59.51865717407191
+      SNAPOFFS 0
+      LENGTH 4.05872098134661
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.16510051449541 0 1 0 0 0
+      FADEOUT 1 0.23389239553524 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AD275631-9A37-4D79-A84D-1D8D7214D548}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 10.26374865111944
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {38FB7F9B-5CA8-4D71-807A-B081B981ED36}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 67.89750828476957
+      SNAPOFFS 0
+      LENGTH 2.98556763712612
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DA1D3411-9D83-4327-90F0-1E9376CF7CDD}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.257143 0 1 -1
+      SOFFS 15.53320673876605
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {74D78694-B139-41FB-A890-FFD1E4A332D2}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 73.37334201554168
+      SNAPOFFS 0
+      LENGTH 1.96744779766382
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.82550257247728 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4EDA9FA-AD18-4081-8830-F1AFAD19DD59}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6C07C10-2C8E-43FB-A46A-A8F23E982ABF}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 74.51528724072833
+      SNAPOFFS 0
+      LENGTH 2.43523258880788
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.82550257247717 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E76FB171-D2E9-4D94-907A-5E9F77FFC084}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 2.9718092609035
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {371AD87D-C428-4984-A266-01D72B52E737}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 78.79414224146717
+      SNAPOFFS 0
+      LENGTH 4.0587209813466
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.16510051449545 0 1 0 0 0
+      FADEOUT 1 0.23389239553531 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FCFA199E-F506-4284-97DD-9CCFAF93149D}
+      IID 20
+      NAME "ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      VOLPAN 1.028571 0 1 -1
+      SOFFS 10.26374865111944
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8351013D-4965-427F-A89F-E130EF487DC8}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Fine Snow On Icy Snow - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {5E0A1341-1146-4824-8895-BF97F5502ED2}
+    NAME "Wind mit ice"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.00480096015927 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5E0A1341-1146-4824-8895-BF97F5502ED2}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 2.35268233156024
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.71543556281364 0 1 0 0 0
+      FADEOUT 1 0.94932795834887 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {70842A15-D694-467D-ABEA-E686678C02E2}
+      IID 1
+      NAME "ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      VOLPAN 0.622222 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {197C5A05-6672-46F0-9778-D29F4BE36EB4}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.16442652782956
+      SNAPOFFS 0
+      LENGTH 3.12315139920569
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 1.00436146318069 0 1 0 0 0
+      FADEOUT 1 1.29328736354773 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {940CB9E3-575C-46C9-9435-CA18A7017EE5}
+      IID 1
+      NAME "ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      VOLPAN 0.666667 0 1 -1
+      SOFFS 3.16442652782956
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2327B887-B2B9-465A-B6F3-6402D104BC4A}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.95234144819775
+      SNAPOFFS 0
+      LENGTH 2.35268233156024
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.71543556281364 0 1 0 0 0
+      FADEOUT 1.1 0.94932795834887 0.75671069143751 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5E822D2B-D3FF-47E4-8236-C7D7891D618D}
+      IID 1
+      NAME "ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      VOLPAN 0.622222 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7B8BDC06-9E0D-4154-B91D-970562E0C6F0}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.54831308832049
+      SNAPOFFS 0
+      LENGTH 4.37516363412954
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 1.47214625425113 0.75671069143751 1 1 0 0
+      FADEOUT 1 1.30704573975567 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A6B61294-41CE-4712-84EE-A2FE729CF2EC}
+      IID 1
+      NAME "ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      VOLPAN 0.666667 0 1 -1
+      SOFFS 6.63153733223411
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0E21A348-4C98-4A3B-AF9A-52C327D705B1}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.35803532460704
+      SNAPOFFS 0
+      LENGTH 2.35268233156023
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.71543556281364 0 1 0 0 0
+      FADEOUT 1.1 0.94932795834887 0.9493279583638 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {50DDFAAB-FC96-4F0F-8883-B9638E87A3D5}
+      IID 1
+      NAME "ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      VOLPAN 0.622222 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {70D4B278-2AA2-4197-8B4C-79DE80A746AB}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 20.76138969780348
+      SNAPOFFS 0
+      LENGTH 3.12315139920568
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 1.0043614631807 0.9493279583638 1 1 0 0
+      FADEOUT 1 1.29328736354772 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5429BE18-3AD5-492C-A21C-707986E7D5BE}
+      IID 1
+      NAME "ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      VOLPAN 0.666667 0 1 -1
+      SOFFS 3.16442652782956
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ACE9EDE3-437E-4660-BE38-8BF7B5CF6385}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Cold, Freeze, Winter - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {9CA95E6E-F84E-418A-A987-3E3C134CDCBA}
+    NAME "Heavy sturm base#"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.03950019240411 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {9CA95E6E-F84E-418A-A987-3E3C134CDCBA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 15.28508333333333
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.37147615761477 0 1 0 0 0
+      FADEOUT 1.1 0 1.40288173950715 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {12EBE722-6E4A-4655-ADD4-E6F1D57B4CD5}
+      IID 2
+      NAME "ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      VOLPAN 0.736842 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EE8FBE3A-19DC-49AC-9897-7991F1703ACC}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.88220159382618
+      SNAPOFFS 0
+      LENGTH 15.28508333333339
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.37147615761481 1.40288173950715 1 1 0 0
+      FADEOUT 1.1 0.35724514770266 0.43414008450417 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A394C3BD-5C57-44FE-9B2E-077FA90DF905}
+      IID 2
+      NAME "ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      VOLPAN 0.742857 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B12FD53D-D08A-4A8C-928F-8B0E2A6967C9}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 28.73314484265541
+      SNAPOFFS 0
+      LENGTH 15.28508333333343
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.37147615761478 0.43414008450417 1 1 0 0
+      FADEOUT 1.1 0 1.40288173950715 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EEC11143-FF5A-4EBD-8E05-A93B9E0C5AAC}
+      IID 2
+      NAME "ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      VOLPAN 0.736842 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {00A47FD9-3551-47B7-8DD9-1155B5E00406}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 42.61534643649044
+      SNAPOFFS 0
+      LENGTH 15.2850833333334
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.37147615761481 1.40288173950715 1 1 0 0
+      FADEOUT 1.1 0.35724514770266 0.96623535937702 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AC0311D3-9FAF-494F-857A-2E96D4C9995A}
+      IID 2
+      NAME "ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      VOLPAN 0.742857 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {96D0A51B-3EF4-4898-B444-E6AE7E9B9339}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 56.93419441044682
+      SNAPOFFS 0
+      LENGTH 15.28508333333328
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.37147615761478 0.96623535937702 1 1 0 0
+      FADEOUT 1.1 0 1.40288173950715 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {22F88D40-8045-4E1A-96EA-95AAD9DFDE04}
+      IID 2
+      NAME "ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      VOLPAN 0.736842 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {611190DC-FA12-406E-B95B-E38D392543C2}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 70.81639600428163
+      SNAPOFFS 0
+      LENGTH 15.28508333333333
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.37147615761481 1.40288173950715 1 1 0 0
+      FADEOUT 1 0.35724514770264 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1E0B6273-74EC-44A5-B058-B1D47A30E6DB}
+      IID 2
+      NAME "ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      VOLPAN 0.742857 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A34BC16C-36DB-43CB-89EC-704D5F13F519}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Heavy Storm, Whistling, Cold - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {52E4A6F2-D421-4285-9EFF-457CBFE259D6}
+    NAME Rauschen
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.0165420402479 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {52E4A6F2-D421-4285-9EFF-457CBFE259D6}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 29.23654944190351
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.1513421382875 0 1 0 0 0
+      FADEOUT 1.1 0.34395940519887 0.20637564311932 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8B3A2F8A-F454-4E48-8F38-DFCB2C80E626}
+      IID 39
+      NAME "ES_Gusts, Snow, Rustling, Howling 02 - Epidemic Sound.wav"
+      VOLPAN 0.628571 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E20D5674-682B-432C-A047-98BD23844908}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Gusts, Snow, Rustling, Howling 02 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 29.03017379878419
+      SNAPOFFS 0
+      LENGTH 29.23654944190346
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.15134213828749 0.20637564311932 1 1 0 0
+      FADEOUT 1.1 0.3439594051988 0.42036550190257 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EBAE9966-6F56-4019-8886-6037F93DF1B3}
+      IID 39
+      NAME "ES_Gusts, Snow, Rustling, Howling 02 - Epidemic Sound.wav"
+      VOLPAN 0.628571 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {53FA6FC8-DCDF-4E5E-A629-7E666018B498}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Gusts, Snow, Rustling, Howling 02 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 57.84635773878509
+      SNAPOFFS 0
+      LENGTH 28.27706317848627
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.15134213828748 0.42036550190257 1 1 0 0
+      FADEOUT 1 1.18752709550164 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0FEC930A-6584-4D01-A916-35E57C1E9D6D}
+      IID 39
+      NAME "ES_Gusts, Snow, Rustling, Howling 02 - Epidemic Sound.wav"
+      VOLPAN 0.628571 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {724B4E24-83E1-4E48-8E2E-9A71C749F3CC}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Gusts, Snow, Rustling, Howling 02 - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {80A201FC-FA57-4046-8EFA-7E73541E44C4}
+    NAME "ES_Small Amounts Falling 04 - Epidemic Sound"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.02355581168452 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {80A201FC-FA57-4046-8EFA-7E73541E44C4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 6.03992715529207
+      SNAPOFFS 0
+      LENGTH 16.37333333333335
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DF8556B8-89B4-43A7-BEA9-F702AF7E2FA0}
+      IID 45
+      NAME "ES_Small Amounts Falling 04 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E4A469A9-67B6-43FA-B5E6-60A140F0A67D}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Small Amounts Falling 04 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 35.07010095402926
+      SNAPOFFS 0
+      LENGTH 16.37333333333327
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D1AB7C23-A96C-4A36-AEBD-BC76C801FAF2}
+      IID 45
+      NAME "ES_Small Amounts Falling 04 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {06C8C572-E4A9-4691-8883-44741A4866AA}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Small Amounts Falling 04 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 63.88628489403018
+      SNAPOFFS 0
+      LENGTH 16.37333333333319
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {502DE0A1-D187-4E28-94EF-0A9F81FC6446}
+      IID 45
+      NAME "ES_Small Amounts Falling 04 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E42C3100-A0C3-4515-9EEE-C0CEF6595713}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Small Amounts Falling 04 - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {F433B4C7-C8F3-4506-9239-4B7174542E60}
+    NAME "ES_Iceland, Whimbrel Calls 03 - Epidemic Sound"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.0096543120427 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F433B4C7-C8F3-4506-9239-4B7174542E60}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 1.21621777111769
+      SNAPOFFS 0
+      LENGTH 11.8066875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F6667697-CA55-4727-BE75-DA178D11B052}
+      IID 68
+      NAME "ES_Iceland, Whimbrel Calls 01 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {743AA5EB-B618-487F-8244-0CC8A560C232}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Iceland, Whimbrel Calls 01 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 29.94936261377309
+      SNAPOFFS 0
+      LENGTH 21.6800625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 1.44425860320226 0 1 0 0 0
+      FADEOUT 1 1.23240122308395 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {69C1C281-E589-4F84-8909-8E21AEDCFB17}
+      IID 67
+      NAME "ES_Iceland, Whimbrel Calls 03 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E2D91C5C-3A6B-4D56-B94B-BD9E21E97625}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Iceland, Whimbrel Calls 03 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 72.21293016010895
+      SNAPOFFS 0
+      LENGTH 11.8066875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {772B9D89-C861-4088-AE6F-08BDCDAEFA70}
+      IID 68
+      NAME "ES_Iceland, Whimbrel Calls 01 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8C8E60A4-39F5-41F4-853D-A7F5EFCC5031}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Eis\Eis Background\Media\ES_Iceland, Whimbrel Calls 01 - Epidemic Sound.wav"
+      >
+    >
+  >
+>

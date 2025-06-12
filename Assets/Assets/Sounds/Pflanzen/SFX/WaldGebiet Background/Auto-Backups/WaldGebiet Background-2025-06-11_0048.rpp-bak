@@ -1,0 +1,789 @@
+<REAPER_PROJECT 0.1 "7.11/win64" 1749595721
+  RIPPLE 0
+  GROUPOVERRIDE 1 0 0
+  AUTOXFADE 129
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 305
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3455 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 171.94754011003636
+  ZOOM 5.66102893578519 0 0
+  VZOOMEX 0 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  MIDIEDITOR -1070883285 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxhJAA==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN "WaldGebiet Background"
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 1 0 170.64 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  MISCOPTS 1
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 170.64035724912176 0
+  SELECTION2 170.64035724912176 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {BF9349F2-E402-496A-80AC-0BC094A1B683}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {C45FDEBE-BB24-4D0C-92B3-601EE7AAA726}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {C1B663A3-2655-4E92-84F1-3DE3BE1C037B}
+    NAME "ES_Bird Sing, Black Forest Czech Republic - Epidemic Sound"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.27991910429543 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C1B663A3-2655-4E92-84F1-3DE3BE1C037B}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 170.64035724912176
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5CF40735-0E62-402E-AD63-348F4E61EE52}
+      IID 1
+      NAME "ES_Bird Sing, Black Forest Czech Republic - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E259173-9C69-484F-93C4-EB573969F660}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Bird Sing, Black Forest Czech Republic - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {4A0760AD-53C5-4B71-8D6B-031D9EE0E409}
+    NAME "ES_By Lake, Wind In Trees, Flies Close To Microphones - Epidemic Sound"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.09890631278077 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4A0760AD-53C5-4B71-8D6B-031D9EE0E409}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 46.81127812734707
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CE1716EE-CC97-48BB-AFE9-70004704BF5E}
+      IID 2
+      NAME "ES_By Lake, Wind In Trees, Flies Close To Microphones - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D9BDE90-F473-4D7B-A8D5-70924E4AD9A5}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_By Lake, Wind In Trees, Flies Close To Microphones - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 117.99975014742583
+      SNAPOFFS 0
+      LENGTH 46.81127812734658
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4606A894-6044-4BE1-A99D-74805FF0456F}
+      IID 2
+      NAME "ES_By Lake, Wind In Trees, Flies Close To Microphones - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D4A7A90-3EA1-4AE0-8686-A4982377B7EC}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_By Lake, Wind In Trees, Flies Close To Microphones - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {68407538-6835-4EC1-AFF8-B1EEF40569C4}
+    NAME "ES_Countryside, Active Birds, Meadow, Forest, Spring, Summer, Peaceful - Epidemic Sound"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.02685086313191 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {68407538-6835-4EC1-AFF8-B1EEF40569C4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 1.94310965811629
+      SNAPOFFS 0
+      LENGTH 165.92491666666675
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A8718C2D-F6EF-4299-A6CB-C64624A4E80C}
+      IID 3
+      NAME "ES_Countryside, Active Birds, Meadow, Forest, Spring, Summer, Peaceful - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C7D6B9AC-B29F-40E9-B2FE-CC94D843E342}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Countryside, Active Birds, Meadow, Forest, Spring, Summer, Peaceful - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {7C0570E2-C837-4DC1-BA87-82233513E99F}
+    NAME "ES_Forest Crickets Lound Sounds, Wind Blows, In Distance - Epidemic Sound"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.00001843452325 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7C0570E2-C837-4DC1-BA87-82233513E99F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 21.02091357416717
+      SNAPOFFS 0
+      LENGTH 74.58133333333325
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {843DCBA1-7391-4A52-B84F-79CD7CD2B8E4}
+      IID 4
+      NAME "ES_Forest Crickets Lound Sounds, Wind Blows, In Distance - Epidemic Sound.wav"
+      VOLPAN 0.823529 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {57E3B9C3-3DA5-4CC6-8726-917C3491CF93}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Forest Crickets Lound Sounds, Wind Blows, In Distance - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {0B93F370-C60B-4043-BBB8-3DD33DD60535}
+    NAME "ES_Forest Summer High Pitched Birds - Epidemic Sound"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.00788226240542 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0B93F370-C60B-4043-BBB8-3DD33DD60535}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 63.59267972016961
+      SNAPOFFS 0
+      LENGTH 87.9999999999998
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AA6DEF0E-BF87-46D7-93AE-FE666D9F776C}
+      IID 5
+      NAME "ES_Forest Summer High Pitched Birds - Epidemic Sound.wav"
+      VOLPAN 0.823529 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8EA66347-9194-4359-81E6-39553524B567}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Forest Summer High Pitched Birds - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {021CEE45-BC20-4C04-A511-3671A4539F1F}
+    NAME "ES_Forest, Smooth Rustle - Epidemic Sound"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.03602012868404 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {021CEE45-BC20-4C04-A511-3671A4539F1F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 15.01493826726227
+      SNAPOFFS 0
+      LENGTH 44.5854375
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B9357C29-2672-4C0A-AA85-4CC05E10243D}
+      IID 6
+      NAME "ES_Forest, Smooth Rustle - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {22B2AC52-FDC0-4F18-AF94-56BB827498B0}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Forest, Smooth Rustle - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 123.29914012410661
+      SNAPOFFS 0
+      LENGTH 44.58543749999909
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {399292BD-0526-42CF-94CC-069DD32389E0}
+      IID 6
+      NAME "ES_Forest, Smooth Rustle - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8E71E931-8045-4BA5-B409-33EED0FCAD57}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Forest, Smooth Rustle - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {7E5E09D6-C69E-41E0-BDA8-BD591A4325AA}
+    NAME animal-frog-frog-call-croak-01
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.02719672458784 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7E5E09D6-C69E-41E0-BDA8-BD591A4325AA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 4.41615831386298
+      SNAPOFFS 0
+      LENGTH 1.6142966474386
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 0.22501697616797 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A1AB426F-F48E-4B7C-9FD2-5092F1D4C772}
+      IID 9
+      NAME animal-frog-frog-call-croak-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5B055006-B81A-4BC0-9D9E-B258335D71EF}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\animal-frog-frog-call-croak-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.80543798513361
+      SNAPOFFS 0
+      LENGTH 1.437
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0 0.22501697616797 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D843C5D2-2D38-491A-93AC-8808FDD4023D}
+      IID 10
+      NAME animal-frog-frog-call-croak-02.wav
+      VOLPAN 1.058824 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {976B97E6-A52D-4A0B-B823-28316219D008}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\animal-frog-frog-call-croak-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 51.79890791386654
+      SNAPOFFS 0
+      LENGTH 1.61429664743864
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ADBDDD4D-BB47-4AA2-8A3C-4AC984F38F14}
+      IID 9
+      NAME animal-frog-frog-call-croak-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6F53299C-52BF-43B7-ACCD-68AB61E8E5CD}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\animal-frog-frog-call-croak-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 82.62895116124891
+      SNAPOFFS 0
+      LENGTH 1.61429664743861
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0 0.22501697619241 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {088C78A2-330B-4707-89F4-2545A1C16144}
+      IID 9
+      NAME animal-frog-frog-call-croak-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C6872BF4-E9D6-4262-B1B1-387A193987CE}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\animal-frog-frog-call-croak-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 84.01823083249509
+      SNAPOFFS 0
+      LENGTH 1.437
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0 0.2250169761924 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {26D4B81C-C537-4049-B786-CC8254CA45D2}
+      IID 10
+      NAME animal-frog-frog-call-croak-02.wav
+      VOLPAN 1.058824 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4EC28C09-586B-4F26-B510-AD8241CA7CB8}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\animal-frog-frog-call-croak-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 130.01170076123563
+      SNAPOFFS 0
+      LENGTH 1.61429664743855
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {904FC73D-392C-430A-B5B9-B911AD4F8AD0}
+      IID 9
+      NAME animal-frog-frog-call-croak-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B2DA811C-E25B-4BD4-8EA3-15323705F7DC}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\animal-frog-frog-call-croak-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 139.72724905179348
+      SNAPOFFS 0
+      LENGTH 1.437
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C0334506-D326-431C-AF2E-F3EBDED25560}
+      IID 17
+      NAME animal-frog-frog-call-croak-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {55F63A25-856F-450A-878E-6CFFF4F4D011}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\animal-frog-frog-call-croak-02.wav"
+      >
+    >
+    <ITEM
+      POSITION 165.87090627010912
+      SNAPOFFS 0
+      LENGTH 1.437
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8AC1A96A-D886-4B98-98AF-92F95E49690E}
+      IID 18
+      NAME animal-frog-frog-call-croak-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {438B69DD-3153-464B-9343-7FDD1AFB9FAB}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\animal-frog-frog-call-croak-02.wav"
+      >
+    >
+  >
+  <TRACK {47B51343-837D-491E-8E66-3AD0AFE6F561}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.01418850870232 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 1
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {47B51343-837D-491E-8E66-3AD0AFE6F561}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 17.82134451251477
+      SNAPOFFS 0
+      LENGTH 23.61263541666667
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7E0B3BA0-A903-4CB7-A382-652E891455B4}
+      IID 11
+      NAME "ES_Designed Tiny Animal Footsteps, Skittering, Fabric, Textile, Tablecloth 01 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {20689186-1328-4F1F-988C-7F860832C496}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Designed Tiny Animal Footsteps, Skittering, Fabric, Textile, Tablecloth 01 - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 102.63151921505148
+      SNAPOFFS 0
+      LENGTH 23.61263541666676
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {4E3024F3-9849-45CF-81F8-1AFB2F032BE9}
+      IID 11
+      NAME "ES_Designed Tiny Animal Footsteps, Skittering, Fabric, Textile, Tablecloth 01 - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F823DC6C-4396-4517-AE72-34F79D2B63E1}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Designed Tiny Animal Footsteps, Skittering, Fabric, Textile, Tablecloth 01 - Epidemic Sound.wav"
+      >
+    >
+  >
+  <TRACK {6EEA33D6-7E89-49B5-A6E4-A7AF7FC3702F}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.12106466644394 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6EEA33D6-7E89-49B5-A6E4-A7AF7FC3702F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 52.96899618993999
+      SNAPOFFS 0
+      LENGTH 11.5418125
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2C6166A8-CFF8-4C51-8C7E-0E4BDA47DE74}
+      IID 12
+      NAME "ES_Croaking Frog - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B18D1D63-702F-4B73-8665-5F825FFB4B36}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Croaking Frog - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 88.67645894312538
+      SNAPOFFS 0
+      LENGTH 11.54181250000011
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4311C6F-DCAF-4439-9B41-814B3E15B869}
+      IID 12
+      NAME "ES_Croaking Frog - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {326BBD4F-9EC2-4409-B559-6C321423F0CD}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Croaking Frog - Epidemic Sound.wav"
+      >
+    >
+    <ITEM
+      POSITION 133.54462741235616
+      SNAPOFFS 0
+      LENGTH 11.54181249999988
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A6F3FB18-171B-42F3-AA41-F36832F5F070}
+      IID 12
+      NAME "ES_Croaking Frog - Epidemic Sound.wav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 0 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {463CBC22-ED2D-4291-B04E-216DADB336CD}
+      <SOURCE WAVE
+        FILE "C:\Users\Denise\Desktop\GameJam\Sounds\Pflanzen\SFX\WaldGebiet Background\Media\ES_Croaking Frog - Epidemic Sound.wav"
+      >
+    >
+  >
+>

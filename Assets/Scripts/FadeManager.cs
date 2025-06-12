@@ -1,9 +1,14 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FadeManager : MonoBehaviour
 {
     public static FadeManager instance;
     private Animator _animator;
+    public Image image;
+    public bool playOnAwake = true;
+    Coroutine fadeCoro;
 
     private void Awake()
     {
@@ -11,6 +16,8 @@ public class FadeManager : MonoBehaviour
 
         if(instance != null) Destroy(instance.gameObject);
         instance = this;
+
+        if(!playOnAwake) image.gameObject.SetActive(false);
     }
 
 
@@ -20,7 +27,10 @@ public class FadeManager : MonoBehaviour
     /// </summary>
     public void FadeIn()
     {
+        image.gameObject.SetActive(true);
         _animator.SetTrigger("FadeIn");
+        if (fadeCoro != null) StopCoroutine(fadeCoro);
+        fadeCoro = StartCoroutine(FadeOutEnumerator());
     }
 
 
@@ -30,6 +40,17 @@ public class FadeManager : MonoBehaviour
     /// </summary>
     public void FadeOut()
     {
+        image.gameObject.SetActive(true);
         _animator.SetTrigger("FadeOut");
     }
+
+    public IEnumerator FadeOutEnumerator()
+    {
+        yield return new WaitForSeconds(1.4f);
+        image.gameObject.SetActive(false);
+
+    }
+
+
+
 }

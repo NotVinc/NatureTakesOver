@@ -51,14 +51,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b44984fe1faa61418b9d81a1d16ee55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
-  jumpForce: 6
+  moveSpeed: 5
+  jumpForce: 10
   coyoteTime: 0.2
   maxJumps: 2
   interactRadius: 1.5
   interactStart: {fileID: 743016465320335736}
   unlockedPlanting: 1
-  plantPrefab: {fileID: 0}
+  plantPrefab: {fileID: 3432361845096609420, guid: 1912d7601bd77a640a46db2dfa89ded9, type: 3}
   plantDistance: 1
   groundRayLength: 3
   plantCheckRadius: 0.2
@@ -212,7 +212,19 @@ MonoBehaviour:
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 9044835131107527019}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: PlantInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 8bf23399-820e-4232-a83a-42154420dc7e
     m_ActionName: 'Player/PlantFlower[/Keyboard/f]'
   m_NeverAutoSwitchControlSchemes: 0
@@ -272,7 +284,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4
   m_Material: {fileID: 6200000, guid: fba5dc2b367c5324da7168f19fc4701d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2

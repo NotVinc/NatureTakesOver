@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: c447cd5493111654ea79e9ab5f3a1b8c
+guid: 45a9e22e3f059ed4fa13ba8dfe2fa67f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8150163134943900268
-    second: Charackter_Run_8F_0
+      213: 5136623597478452298
+    second: Charackter_RefillWater_8F_0
   - first:
-      213: -8904498188011702784
-    second: Charackter_Run_8F_1
+      213: 5561925750266340141
+    second: Charackter_RefillWater_8F_1
   - first:
-      213: -3698710203507797335
-    second: Charackter_Run_8F_2
+      213: 442834923122716583
+    second: Charackter_RefillWater_8F_2
   - first:
-      213: -716412493851902156
-    second: Charackter_Run_8F_3
+      213: -6746739875135168058
+    second: Charackter_RefillWater_8F_3
   - first:
-      213: -5122560586973215892
-    second: Charackter_Run_8F_4
+      213: -5552194452481476613
+    second: Charackter_RefillWater_8F_4
   - first:
-      213: 5607609642284906894
-    second: Charackter_Run_8F_5
+      213: -4923521246313621753
+    second: Charackter_RefillWater_8F_5
   - first:
-      213: 2199055548828056868
-    second: Charackter_Run_8F_6
+      213: 7395620993139900029
+    second: Charackter_RefillWater_8F_6
   - first:
-      213: -5130496638605755560
-    second: Charackter_Run_8F_7
+      213: -5848075728710999329
+    second: Charackter_RefillWater_8F_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -134,7 +134,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Charackter_Run_8F_0
+      name: Charackter_RefillWater_8F_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899dd76cee9baa84997b5da0a1835053
-      internalID: -1025383039
+      spriteID: 92a5d59de6ae1904194e9992cbc27c3b
+      internalID: -622837398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_1
+      name: Charackter_RefillWater_8F_1
       rect:
         serializedVersion: 2
         x: 48
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2beb972299c122f4a8ada1d0c98c172d
-      internalID: -947677115
+      spriteID: 55fee6173e2115448b029443cafe7bac
+      internalID: 551978278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_2
+      name: Charackter_RefillWater_8F_2
       rect:
         serializedVersion: 2
         x: 96
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 821eaee5bcc03234f82985091ff5fb7c
-      internalID: -911820487
+      spriteID: 8c562c1216cb0084b9e4ec04d33ec2a2
+      internalID: -1198030613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_3
+      name: Charackter_RefillWater_8F_3
       rect:
         serializedVersion: 2
         x: 144
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdfffe7d92bbd294787255d55bc50ff0
-      internalID: -1682130044
+      spriteID: e3e666b57c4e50745a2491dac51d1fb5
+      internalID: 2046325492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_4
+      name: Charackter_RefillWater_8F_4
       rect:
         serializedVersion: 2
         x: 192
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc5fee3d7c625554abc0f9683038a0b9
-      internalID: 2134226943
+      spriteID: 9db168b1bc81c4e48ae174e73bfc850f
+      internalID: -1317239435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_5
+      name: Charackter_RefillWater_8F_5
       rect:
         serializedVersion: 2
         x: 240
@@ -259,14 +259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e1357bb411ae61448572eba9e041e0d
-      internalID: -163853742
+      spriteID: a80623041608a1d46a2d1beee66302d7
+      internalID: 1895973443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_6
+      name: Charackter_RefillWater_8F_6
       rect:
         serializedVersion: 2
         x: 288
@@ -281,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 546ca8fdabbe9a64d9ed8493115e3249
-      internalID: -1459843605
+      spriteID: de41ee650546e894d84fa33286eca768
+      internalID: 316637440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_7
+      name: Charackter_RefillWater_8F_7
       rect:
         serializedVersion: 2
         x: 336
@@ -303,8 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebafe9d04d6a5ae468011dd4576895e2
-      internalID: -933345879
+      spriteID: 9ba109b857859074abe6e921265949c5
+      internalID: -502183296
       vertices: []
       indices: 
       edges: []
@@ -325,14 +325,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":45.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Charackter_Run_8F_0: -1025383039
-      Charackter_Run_8F_1: -947677115
-      Charackter_Run_8F_2: -911820487
-      Charackter_Run_8F_3: -1682130044
-      Charackter_Run_8F_4: 2134226943
-      Charackter_Run_8F_5: -163853742
-      Charackter_Run_8F_6: -1459843605
-      Charackter_Run_8F_7: -933345879
+      Charackter_RefillWater_8F_0: -622837398
+      Charackter_RefillWater_8F_1: 551978278
+      Charackter_RefillWater_8F_2: -1198030613
+      Charackter_RefillWater_8F_3: 2046325492
+      Charackter_RefillWater_8F_4: -1317239435
+      Charackter_RefillWater_8F_5: 1895973443
+      Charackter_RefillWater_8F_6: 316637440
+      Charackter_RefillWater_8F_7: -502183296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

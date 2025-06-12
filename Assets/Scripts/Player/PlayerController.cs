@@ -105,6 +105,11 @@ public class PlayerController : MonoBehaviour
             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
     }
 
+    public void SwitchMove(bool newState)
+    {
+        canMove = newState;
+    }
+
 
 
     /////////////////////////
@@ -124,10 +129,12 @@ public class PlayerController : MonoBehaviour
         {
             if (jumpCount > 0 && (isGrounded() || canCoyote))
             {
+                anim.SetTrigger("Jump");
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpCount--;
             }else if(jumpCount > 1)
             {
+                anim.SetTrigger("Jump");
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpCount--;
             }
@@ -145,7 +152,8 @@ public class PlayerController : MonoBehaviour
                 Interactable interactable = col.gameObject.GetComponent<Interactable>();
                 if(interactable != null)
                 {
-                    interactable.Interact(this);
+                    anim.SetTrigger("plantFlower");
+                    //interactable.Interact(this);
                     Debug.Log("interacted");
                 }
             }
@@ -156,6 +164,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started && canMove && plantPrefab != null && unlockedPlanting)
         {
+            anim.SetTrigger("plantFlower");
             Vector3 facingDirection = transform.localScale.x > 0 ? Vector3.right : Vector3.left;
 
             Vector3 spawnCheckOrigin = transform.position + facingDirection * plantDistance + Vector3.up * 0.5f;

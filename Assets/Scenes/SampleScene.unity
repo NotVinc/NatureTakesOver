@@ -59907,7 +59907,7 @@ PrefabInstance:
       objectReference: {fileID: -342710624, guid: f52722042f6170f4e88cf96bf55f505b, type: 3}
     - target: {fileID: 7567329877926372235, guid: 5d5f28db5157e65498b28d8bad6338ca, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59973,6 +59973,14 @@ PrefabInstance:
     - target: {fileID: 7330061790387754080, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820584983610122631, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820584983610122631, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
+      propertyPath: m_Size.y
+      value: 2.8125
       objectReference: {fileID: 0}
     - target: {fileID: 8705850051771540945, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
       propertyPath: m_ActionEvents.Array.size

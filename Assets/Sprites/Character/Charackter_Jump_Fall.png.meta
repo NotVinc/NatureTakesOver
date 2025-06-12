@@ -1,31 +1,16 @@
 fileFormatVersion: 2
-guid: c447cd5493111654ea79e9ab5f3a1b8c
+guid: a4c9d1bc7fb439d4ebd39fe35abfe51d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8150163134943900268
-    second: Charackter_Run_8F_0
+      213: 1138374586344763655
+    second: Charackter_Jump_Fall_0
   - first:
-      213: -8904498188011702784
-    second: Charackter_Run_8F_1
+      213: -6177855788374798085
+    second: Charackter_Jump_Fall_1
   - first:
-      213: -3698710203507797335
-    second: Charackter_Run_8F_2
-  - first:
-      213: -716412493851902156
-    second: Charackter_Run_8F_3
-  - first:
-      213: -5122560586973215892
-    second: Charackter_Run_8F_4
-  - first:
-      213: 5607609642284906894
-    second: Charackter_Run_8F_5
-  - first:
-      213: 2199055548828056868
-    second: Charackter_Run_8F_6
-  - first:
-      213: -5130496638605755560
-    second: Charackter_Run_8F_7
+      213: -1838814988898142501
+    second: Charackter_Jump_Fall_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -134,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Charackter_Run_8F_0
+      name: Charackter_Jump_Fall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899dd76cee9baa84997b5da0a1835053
-      internalID: -1025383039
+      spriteID: ee2910d0a4b58124ca9ba7d35bae258e
+      internalID: -1864490571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_1
+      name: Charackter_Jump_Fall_1
       rect:
         serializedVersion: 2
         x: 48
@@ -171,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2beb972299c122f4a8ada1d0c98c172d
-      internalID: -947677115
+      spriteID: 705f023d86a003843b1544142ef89ee3
+      internalID: -187576010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Charackter_Run_8F_2
+      name: Charackter_Jump_Fall_2
       rect:
         serializedVersion: 2
         x: 96
@@ -193,118 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 821eaee5bcc03234f82985091ff5fb7c
-      internalID: -911820487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Charackter_Run_8F_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdfffe7d92bbd294787255d55bc50ff0
-      internalID: -1682130044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Charackter_Run_8F_4
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 48
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc5fee3d7c625554abc0f9683038a0b9
-      internalID: 2134226943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Charackter_Run_8F_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 48
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e1357bb411ae61448572eba9e041e0d
-      internalID: -163853742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Charackter_Run_8F_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 48
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 546ca8fdabbe9a64d9ed8493115e3249
-      internalID: -1459843605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Charackter_Run_8F_7
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 48
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebafe9d04d6a5ae468011dd4576895e2
-      internalID: -933345879
+      spriteID: 8a3034f362ad5524ebd8bf93d3158c75
+      internalID: -704418443
       vertices: []
       indices: 
       edges: []
@@ -323,16 +198,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":45.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":48.0,"y":45.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Charackter_Run_8F_0: -1025383039
-      Charackter_Run_8F_1: -947677115
-      Charackter_Run_8F_2: -911820487
-      Charackter_Run_8F_3: -1682130044
-      Charackter_Run_8F_4: 2134226943
-      Charackter_Run_8F_5: -163853742
-      Charackter_Run_8F_6: -1459843605
-      Charackter_Run_8F_7: -933345879
+      Charackter_Jump_Fall_0: -1864490571
+      Charackter_Jump_Fall_1: -187576010
+      Charackter_Jump_Fall_2: -704418443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

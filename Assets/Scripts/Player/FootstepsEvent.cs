@@ -35,6 +35,30 @@ public class FootstepsEvent : MonoBehaviour
         GetComponent<AudioSource>().Play();
     }
 
+    public void AllowMovement()
+    {
+        playerController.SwitchMove(true);
+    }
+
+    public void DenyMovement()
+    {
+        playerController.SwitchMove(false);
+
+    }
+
+    public void Interact()
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(playerController.interactStart.position, playerController.interactRadius);
+        foreach (Collider2D col in colliders)
+        {
+            Interactable interactable = col.gameObject.GetComponent<Interactable>();
+            if (interactable != null)
+            {
+                interactable.Interact(playerController);
+            }
+        }
+    }
+
 }
 
 [Serializable]

@@ -6,6 +6,8 @@ using UnityEngine;
 public class FootstepsEvent : MonoBehaviour
 {
     public List<AudioClip> footSteps;
+    public AudioClip[] pingPongClip;
+    public AudioSource pingPong;
     private PlayerController playerController;
 
     private void Awake()
@@ -17,6 +19,12 @@ public class FootstepsEvent : MonoBehaviour
     {
         GetComponent<AudioSource>().clip = footSteps[UnityEngine.Random.Range(0, footSteps.Count)];
         GetComponent<AudioSource>().Play();
+    }
+
+    public void PingPong()
+    {
+        pingPong.clip = pingPongClip[UnityEngine.Random.Range(0,pingPongClip.Length)];
+        pingPong.Play();
     }
 
     public void AllowMovement()

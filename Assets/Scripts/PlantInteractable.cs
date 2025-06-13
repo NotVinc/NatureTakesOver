@@ -6,7 +6,7 @@ public class PlantInteractable : Interactable
 {
     public string correctID;
     public bool alreadyInteracted = false;
-    public CorruptedPlant[] plantsToChange;
+    public float clearRadius = 10f;
 
 
     public override void Interact(PlayerController trigger)
@@ -20,9 +20,14 @@ public class PlantInteractable : Interactable
             onInteract?.Invoke();
             if (!alreadyInteracted)
             {
-                foreach (CorruptedPlant plant in plantsToChange)
+                Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, clearRadius);
+                foreach (Collider2D col in colliders)
                 {
-                    plant.Healplant();
+                    CorruptedPlant plant = col.gameObject.GetComponent<CorruptedPlant>();
+                    if (plant != null)
+                    {
+                        plant.Healplant(true);
+                    }
                 }
             }
             alreadyInteracted = true;
@@ -37,15 +42,29 @@ public class PlantInteractable : Interactable
                     onInteract?.Invoke();
                     if (!alreadyInteracted)
                     {
-                        foreach (var plant in plantsToChange)
+                        Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, clearRadius );
+                        foreach (Collider2D col in colliders)
                         {
-                            plant.Healplant();
+                            CorruptedPlant plant = col.gameObject.GetComponent<CorruptedPlant>();
+                            if (plant != null)
+                            {
+                                plant.Healplant(true);
+                            }
                         }
                     }
                     alreadyInteracted = true;
                 }
             }
         }
+
+    }
+
+
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(this.transform.position, clearRadius);
 
     }
 }

@@ -43,6 +43,9 @@ public class PlayerController : MonoBehaviour
     [Header("Pause Menu")]
     public GameObject pauseMenu;
 
+    [Header("Sound effects")]
+    public AudioSource plantSFX;
+
     [HideInInspector] public float speedMultiplier = 1f;
     [HideInInspector] public int currentCollectables = 0;
     [HideInInspector] public Checkpoint lastCheckPoint;

@@ -15,7 +15,7 @@ public class CorruptedPlant : MonoBehaviour
     }
     public void Healplant(bool foreverHealed = true)
     {
-        foreverHealedBool = foreverHealed;
+        if(!foreverHealedBool) foreverHealedBool = foreverHealed;
         effect.gameObject.SetActive(true);
         StartCoroutine(clearEffect());
         renderer.sprite = normalSprite;

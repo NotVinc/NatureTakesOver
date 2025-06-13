@@ -43,6 +43,9 @@ public class PlayerController : MonoBehaviour
     [Header("Pause Menu")]
     public GameObject pauseMenu;
 
+    [Header("Visual effects")]
+    public ParticleSystem dust;
+
     [Header("Sound effects")]
     public AudioSource plantSFX;
 
@@ -108,10 +111,17 @@ public class PlayerController : MonoBehaviour
 
     private void HandleSpriteFlip()
     {
-        if (moveInput.x > 0.01f)
+        if (moveInput.x > 0.01f && transform.localScale != new Vector3(1, transform.localScale.y, transform.localScale.z))
+        {
             transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
-        else if (moveInput.x < -0.01f)
+            CreateDust();
+        }
+        else if (moveInput.x < -0.01f && transform.localScale != new Vector3(-1, transform.localScale.y, transform.localScale.z))
+        {
             transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+            CreateDust();
+
+        }
     }
 
 
@@ -140,11 +150,13 @@ public class PlayerController : MonoBehaviour
             if (jumpCount > 0 && (isGrounded() || canCoyote))
             {
                 anim.SetTrigger("Jump");
+                CreateDust();
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpCount--;
             }else if(jumpCount > 1)
             {
                 anim.SetTrigger("Jump");
+                CreateDust();
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpCount--;
             }
@@ -337,6 +349,18 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.tag == "oil") speedMultiplier = 1f;
     }
+
+    /////////////////////////
+
+    /////////////////////////
+    ///       VFX         /// 
+    /////////////////////////
+
+    void CreateDust()
+    {
+        dust.Play();
+    }
+
 
     /////////////////////////
 

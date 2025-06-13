@@ -153,7 +153,7 @@ public class PlayerController : MonoBehaviour
                 CreateDust();
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 jumpCount--;
-            }else if(jumpCount > 0)
+            }else if(jumpCount > 1)
             {
                 anim.SetTrigger("Jump");
                 CreateDust();

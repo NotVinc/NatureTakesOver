@@ -704,7 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 10
-  coyoteTime: 0.2
+  coyoteTime: 0.5
   maxJumps: 2
   interactRadius: 1.5
   interactStart: {fileID: 743016465320335736}

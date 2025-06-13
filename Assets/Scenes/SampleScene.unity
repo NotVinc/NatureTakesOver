@@ -63324,6 +63324,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3554315708212279591, guid: a75b200e67a69ff4b998180dcfb22922, type: 3}
+      propertyPath: MaxDistance
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6039141546570539562, guid: a75b200e67a69ff4b998180dcfb22922, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.3353

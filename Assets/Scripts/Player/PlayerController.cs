@@ -292,10 +292,10 @@ public class PlayerController : MonoBehaviour
 
     Coroutine loadPointC;
 
-    private IEnumerator loadPoint()
+    private IEnumerator loadPoint(bool dead = false)
     {
         yield return new WaitForSeconds(1.5f);
-        rb.gravityScale = 1;
+        rb.gravityScale = 4;
         ResetPlayer();
         yield return new WaitForSeconds(.4f);
         FadeManager.instance.FadeIn();
@@ -321,10 +321,10 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocityY = 0; 
             rb.linearVelocityX = 0; 
             canMove = false;
-            FadeManager.instance.FadeOut();
+            FadeManager.instance.FadeOut(true);
             if(loadPointC != null) StopCoroutine(loadPointC);
 
-            loadPointC = StartCoroutine(loadPoint());
+            loadPointC = StartCoroutine(loadPoint(true));
         }
 
         if (collision.tag == "Checkpoint")

@@ -7,6 +7,9 @@ public class FadeManager : MonoBehaviour
     public static FadeManager instance;
     private Animator _animator;
     public Image image;
+    public Image cutout;
+    public Sprite deadSprite;
+    public Sprite normalSprite;
     public bool playOnAwake = true;
     Coroutine fadeCoro;
 
@@ -25,8 +28,16 @@ public class FadeManager : MonoBehaviour
     /// <summary>
     /// From black to white
     /// </summary>
-    public void FadeIn()
+    public void FadeIn(bool dead = false)
     {
+        if (dead)
+        {
+            cutout.sprite = deadSprite;
+        }
+        else
+        {
+            cutout.sprite = normalSprite;
+        }
         image.gameObject.SetActive(true);
         _animator.SetTrigger("FadeIn");
         if (fadeCoro != null) StopCoroutine(fadeCoro);
@@ -38,8 +49,16 @@ public class FadeManager : MonoBehaviour
     /// <summary>
     /// From white to Black
     /// </summary>
-    public void FadeOut()
+    public void FadeOut(bool dead = false)
     {
+        if (dead)
+        {
+            cutout.sprite = deadSprite;
+        }
+        else
+        {
+            cutout.sprite = normalSprite;
+        }
         image.gameObject.SetActive(true);
         _animator.SetTrigger("FadeOut");
     }

@@ -9,6 +9,7 @@ public class PlantInteractable : Interactable
     public bool alreadyInteracted = false;
     public float clearRadius = 10f;
     public AudioSource grow;
+    public Checkpoint[] checkPoints;
 
 
     public override void Interact(PlayerController trigger)
@@ -30,6 +31,11 @@ public class PlantInteractable : Interactable
                     {
                         plant.Healplant(true);
                     }
+                }
+
+                foreach(Checkpoint checkpoint in checkPoints)
+                {
+                    checkpoint.isCorrupted = false;
                 }
             }
             alreadyInteracted = true;
@@ -54,6 +60,11 @@ public class PlantInteractable : Interactable
                                 plant.Healplant(true);
                             }
                         }
+                    }
+
+                    foreach (Checkpoint checkpoint in checkPoints)
+                    {
+                        checkpoint.isCorrupted = false;
                     }
                     alreadyInteracted = true;
                 }

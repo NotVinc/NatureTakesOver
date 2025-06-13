@@ -22,6 +22,16 @@ public class BreakingPlatform : MonoBehaviour
 
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Player" && !isTriggerd)
+        {
+            isTriggerd = true;
+            animator.SetTrigger("trigger");
+            GetComponent<AudioSource>().Play();
+        }
+    }
+
     public void EnableCollider(){ col.enabled = true; isTriggerd = false; }
     public void DisableCollider(){ col.enabled = false; isTriggerd = true; }
 }

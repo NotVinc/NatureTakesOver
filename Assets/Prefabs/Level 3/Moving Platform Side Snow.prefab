@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6039141546570539562}
   m_Layer: 6
-  m_Name: Moving Platform Grass
+  m_Name: Moving Platform Side Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,7 +162,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.00064754486, y: 0.09994754}
+  m_Offset: {x: 0.011158943, y: -0.09485412}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -172,7 +172,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.6534901, y: 0.94722015}
+  m_Size: {x: 1.2678223, y: 0.62058294}
   m_EdgeRadius: 0
 --- !u!1 &7735035351099738557
 GameObject:
@@ -187,8 +187,8 @@ GameObject:
   - component: {fileID: 6076942276990850926}
   - component: {fileID: 1741406038811094543}
   - component: {fileID: 1744224744400102374}
+  - component: {fileID: 5996249187384626294}
   - component: {fileID: 1194417999789388894}
-  - component: {fileID: 1834302996453163614}
   m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
@@ -257,7 +257,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 573374691, guid: cac095596d04b954f971b3469ae9175c, type: 3}
+  m_Sprite: {fileID: -1856173448, guid: 2911e54ddff65ac4c850de39ba5eef7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -318,17 +318,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0019097328, y: 0.7332402}
+  m_Offset: {x: -0.0026783943, y: 0.47382823}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 1.4375}
+    oldSize: {x: 2, y: 1}
     newSize: {x: 2, y: 0.9375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8891859, y: 0.100663066}
+  m_Size: {x: 1.8570719, y: 0.11213237}
   m_EdgeRadius: 0
 --- !u!61 &1744224744400102374
 BoxCollider2D:
@@ -364,18 +364,40 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.11784291}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 1.4375}
+    oldSize: {x: 2, y: 1}
     newSize: {x: 2, y: 0.9375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 1.1731858}
+  m_Size: {x: 2, y: 0.9375}
   m_EdgeRadius: 0
+--- !u!95 &5996249187384626294
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7735035351099738557}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!82 &1194417999789388894
 AudioSource:
   m_ObjectHideFlags: 0
@@ -473,28 +495,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &1834302996453163614
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7735035351099738557}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0766e5ad379ea95498a84757dfea39b9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8449473750457320746
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,7 +521,7 @@ Transform:
   m_GameObject: {fileID: 8449473750457320746}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.048, y: -0.175, z: 0}
+  m_LocalPosition: {x: -0.112000465, y: -0.271, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

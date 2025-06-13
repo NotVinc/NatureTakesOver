@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 1c5e5f9996c1aaa46b4fa02dbe7d458c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1106687824320338923
+    second: CorruptionCore_Tentacles_14F_0
+  - first:
+      213: -3853012115812000474
+    second: CorruptionCore_Tentacles_14F_1
+  - first:
+      213: 8125565397116274212
+    second: CorruptionCore_Tentacles_14F_2
+  - first:
+      213: -4622618828136057310
+    second: CorruptionCore_Tentacles_14F_3
+  - first:
+      213: -8702083957356116656
+    second: CorruptionCore_Tentacles_14F_4
+  - first:
+      213: 7707632825078317338
+    second: CorruptionCore_Tentacles_14F_5
+  - first:
+      213: -7392142922108092517
+    second: CorruptionCore_Tentacles_14F_6
+  - first:
+      213: 1180502764351607815
+    second: CorruptionCore_Tentacles_14F_7
+  - first:
+      213: -8296878408474224633
+    second: CorruptionCore_Tentacles_14F_8
+  - first:
+      213: 8385882692045131160
+    second: CorruptionCore_Tentacles_14F_9
+  - first:
+      213: -8031546352938539806
+    second: CorruptionCore_Tentacles_14F_10
+  - first:
+      213: -7131071942729584205
+    second: CorruptionCore_Tentacles_14F_11
+  - first:
+      213: -2379383916049097735
+    second: CorruptionCore_Tentacles_14F_12
+  - first:
+      213: -3407275168531664749
+    second: CorruptionCore_Tentacles_14F_13
+  - first:
+      213: -4051152832425857433
+    second: CorruptionCore_Tentacles_14F_14
+  - first:
+      213: 4773970722719100491
+    second: CorruptionCore_Tentacles_14F_15
+  - first:
+      213: 8380081344087063626
+    second: CorruptionCore_Tentacles_14F_16
+  - first:
+      213: -2612816957471866942
+    second: CorruptionCore_Tentacles_14F_17
+  - first:
+      213: 780431770239928356
+    second: CorruptionCore_Tentacles_14F_18
+  - first:
+      213: 2203526397328965055
+    second: CorruptionCore_Tentacles_14F_19
+  - first:
+      213: -4951737293717294088
+    second: CorruptionCore_Tentacles_14F_20
+  - first:
+      213: 6227015124077560888
+    second: CorruptionCore_Tentacles_14F_21
+  - first:
+      213: 4633331673153155125
+    second: CorruptionCore_Tentacles_14F_22
+  - first:
+      213: -4335882688715820018
+    second: CorruptionCore_Tentacles_14F_23
+  - first:
+      213: 4265641065677133710
+    second: CorruptionCore_Tentacles_14F_24
+  - first:
+      213: 1885718424937143311
+    second: CorruptionCore_Tentacles_14F_25
+  - first:
+      213: 683859814647897951
+    second: CorruptionCore_Tentacles_14F_26
+  - first:
+      213: -5259285406926122015
+    second: CorruptionCore_Tentacles_14F_27
+  - first:
+      213: 7281897722332073535
+    second: CorruptionCore_Tentacles_14F_28
+  - first:
+      213: 7985378914607330843
+    second: CorruptionCore_Tentacles_14F_29
+  - first:
+      213: 7745157888793592923
+    second: CorruptionCore_Tentacles_14F_30
+  - first:
+      213: 4335352373897213275
+    second: CorruptionCore_Tentacles_14F_31
+  - first:
+      213: -2408066906194850035
+    second: CorruptionCore_Tentacles_14F_32
+  - first:
+      213: -6662385085095816800
+    second: CorruptionCore_Tentacles_14F_33
+  - first:
+      213: 4680853523857569526
+    second: CorruptionCore_Tentacles_14F_34
+  - first:
+      213: -2410441683684183914
+    second: CorruptionCore_Tentacles_14F_35
+  - first:
+      213: 2062958489095590220
+    second: CorruptionCore_Tentacles_14F_36
+  - first:
+      213: 5270153009642054250
+    second: CorruptionCore_Tentacles_14F_37
+  - first:
+      213: -2623814612424544434
+    second: CorruptionCore_Tentacles_14F_38
+  - first:
+      213: -9128121167161672459
+    second: CorruptionCore_Tentacles_14F_39
+  - first:
+      213: 6688679094755376613
+    second: CorruptionCore_Tentacles_14F_40
+  - first:
+      213: -4493816784554337585
+    second: CorruptionCore_Tentacles_14F_41
+  - first:
+      213: -7997761605172421927
+    second: CorruptionCore_Tentacles_14F_42
+  - first:
+      213: 6453194592078684630
+    second: CorruptionCore_Tentacles_14F_43
+  - first:
+      213: 3231366228677924838
+    second: CorruptionCore_Tentacles_14F_44
+  - first:
+      213: -2781622842206713487
+    second: CorruptionCore_Tentacles_14F_45
+  - first:
+      213: -2288987793820920838
+    second: CorruptionCore_Tentacles_14F_46
+  - first:
+      213: 3931244618393117493
+    second: CorruptionCore_Tentacles_14F_47
+  - first:
+      213: -7242169012329687534
+    second: CorruptionCore_Tentacles_14F_48
+  - first:
+      213: 4762430210508136284
+    second: CorruptionCore_Tentacles_14F_49
+  - first:
+      213: -7170588861066719638
+    second: CorruptionCore_Tentacles_14F_50
+  - first:
+      213: 3053191107721121207
+    second: CorruptionCore_Tentacles_14F_51
+  - first:
+      213: -4068752797750174360
+    second: CorruptionCore_Tentacles_14F_52
+  - first:
+      213: -1465674766092602595
+    second: CorruptionCore_Tentacles_14F_53
+  - first:
+      213: 6636280332966766097
+    second: CorruptionCore_Tentacles_14F_54
+  - first:
+      213: 8428412244287035262
+    second: CorruptionCore_Tentacles_14F_55
+  - first:
+      213: 3879098080393704480
+    second: CorruptionCore_Tentacles_14F_56
+  - first:
+      213: -1179422302171307918
+    second: CorruptionCore_Tentacles_14F_57
+  - first:
+      213: -8959073665056584249
+    second: CorruptionCore_Tentacles_14F_58
+  - first:
+      213: 2950203946746554867
+    second: CorruptionCore_Tentacles_14F_59
+  - first:
+      213: -6408379504845700232
+    second: CorruptionCore_Tentacles_14F_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5fc6667849d134eb0a1b2a9a4ca54e
+      internalID: 1743416071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cb1bfea0d726941aed48c01394a5c4
+      internalID: -1089245189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6aff86e592d324e91fc3ac216d9d54
+      internalID: 237979273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ea0354ac3c1aa449f90f725e502f0e
+      internalID: 2064512884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a256b7d0a7947424ea76ebc84a92bbb4
+      internalID: -576064902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4db6bb4d95c9a49ac8f7047dd212cf
+      internalID: 1774828468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f6c99a700a40d439b7ca68bd25b996
+      internalID: -1157523123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a759b1ed4e85f7348a7dc83c977677c1
+      internalID: 1271774087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f31997f1c4a9f9409515125d587439c
+      internalID: 1575435255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d25783b02ff2140b0fda6dca02411b
+      internalID: 1786437533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6650ace23aa1e34eb7011e5320c9919
+      internalID: -1943478847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76caaeb298dd3684db95a184e7054721
+      internalID: -1129906379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db87b0c4b61bcf24c96f5345a5226568
+      internalID: -2067639036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CorruptionCore_Tentacles_14F_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11819d35b08fb304fa73c36569c95be8
+      internalID: 2083182891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e2aa71e6f35fcc4c954a5c403045076
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":14.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      CorruptionCore_Tentacles_14F_0: 1743416071
+      CorruptionCore_Tentacles_14F_1: -1089245189
+      CorruptionCore_Tentacles_14F_10: -1943478847
+      CorruptionCore_Tentacles_14F_11: -1129906379
+      CorruptionCore_Tentacles_14F_12: -2067639036
+      CorruptionCore_Tentacles_14F_13: 2083182891
+      CorruptionCore_Tentacles_14F_2: 237979273
+      CorruptionCore_Tentacles_14F_3: 2064512884
+      CorruptionCore_Tentacles_14F_4: -576064902
+      CorruptionCore_Tentacles_14F_5: 1774828468
+      CorruptionCore_Tentacles_14F_6: -1157523123
+      CorruptionCore_Tentacles_14F_7: 1271774087
+      CorruptionCore_Tentacles_14F_8: 1575435255
+      CorruptionCore_Tentacles_14F_9: 1786437533
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,12 +1,14 @@
 using NUnit.Framework;
 using System.Collections;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI.Table;
 
 public class PlantInteractable : Interactable
 {
     public string correctID;
     public bool alreadyInteracted = false;
     public float clearRadius = 10f;
+    public AudioSource grow;
 
 
     public override void Interact(PlayerController trigger)
@@ -38,10 +40,11 @@ public class PlantInteractable : Interactable
             {
                 if (id == correctID)
                 {
-                    trigger.collectedIDs.Remove(id);
+                    //trigger.collectedIDs.Remove(id);
                     onInteract?.Invoke();
                     if (!alreadyInteracted)
                     {
+                        grow.Play();
                         Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, clearRadius );
                         foreach (Collider2D col in colliders)
                         {

@@ -64849,7 +64849,16 @@ PrefabInstance:
       propertyPath: 'plantsToChange.Array.data[2]'
       value: 
       objectReference: {fileID: 6563224033447146363}
-    m_RemovedComponents: []
+    - target: {fileID: 4763398351936031177, guid: 2739cb8d66ec69347a17a284c4d86739, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4763398351936031177, guid: 2739cb8d66ec69347a17a284c4d86739, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6427131137524426154, guid: 2739cb8d66ec69347a17a284c4d86739, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

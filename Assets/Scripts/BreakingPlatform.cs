@@ -17,7 +17,7 @@ public class BreakingPlatform : MonoBehaviour
         {
             isTriggerd = true;
             animator.SetTrigger("trigger");
-
+            GetComponent<AudioSource>().Play();
         }
 
     }

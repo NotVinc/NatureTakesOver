@@ -208,6 +208,7 @@ public class PlayerController : MonoBehaviour
                         Destroy(lastPlant);
                     }
                     lastPlant = Instantiate(plantPrefab, plantPos, Quaternion.identity);
+                    plantSFX.Play();
                     anim.SetTrigger("plantFlower");
                 }
             }

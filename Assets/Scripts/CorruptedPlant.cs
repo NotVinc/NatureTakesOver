@@ -6,7 +6,7 @@ public class CorruptedPlant : MonoBehaviour
     public Sprite normalSprite;
     public Sprite infectedSprite;
     private SpriteRenderer renderer;
-    public GameObject effect;
+    public ParticleSystem effect;
     bool foreverHealedBool = false;
     private void Awake()
     {
@@ -16,8 +16,7 @@ public class CorruptedPlant : MonoBehaviour
     public void Healplant(bool foreverHealed = true)
     {
         if(!foreverHealedBool) foreverHealedBool = foreverHealed;
-        effect.gameObject.SetActive(true);
-        StartCoroutine(clearEffect());
+        effect.Play();
         renderer.sprite = normalSprite;
     }
 
@@ -28,9 +27,4 @@ public class CorruptedPlant : MonoBehaviour
 
     }
 
-    IEnumerator clearEffect()
-    {
-        yield return new WaitForSeconds(.3f);
-        effect.gameObject.SetActive(false);
-    }
 }

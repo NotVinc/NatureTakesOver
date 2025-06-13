@@ -135,7 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   normalSprite: {fileID: 2037899273, guid: 6e88a14531442bf41ae5f45b625c5c94, type: 3}
   infectedSprite: {fileID: -628274674, guid: 6e88a14531442bf41ae5f45b625c5c94, type: 3}
-  effect: {fileID: 8757223190886330982}
+  effect: {fileID: 3169424148308014189}
 --- !u!61 &1288254124326346277
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -260,7 +260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -270,13 +270,13 @@ PrefabInstance:
       addedObject: {fileID: 3245934383018109628}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
+--- !u!198 &3169424148308014189 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4082293172063642508, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
+  m_PrefabInstance: {fileID: 1394768409961076705}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6148403694320634063 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5046480122908303150, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
-  m_PrefabInstance: {fileID: 1394768409961076705}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8757223190886330982 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
   m_PrefabInstance: {fileID: 1394768409961076705}
   m_PrefabAsset: {fileID: 0}

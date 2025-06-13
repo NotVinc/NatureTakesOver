@@ -61576,6 +61576,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &701454145 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8969351472738621899, guid: 037dd7099ab2aea4f866c7d2f19600b9, type: 3}
+  m_PrefabInstance: {fileID: 736867129}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &718810749
 GameObject:
   m_ObjectHideFlags: 0
@@ -61687,6 +61692,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1088343517576678044, guid: 037dd7099ab2aea4f866c7d2f19600b9, type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 701454145}
     - target: {fileID: 7358927278247543579, guid: 037dd7099ab2aea4f866c7d2f19600b9, type: 3}
       propertyPath: m_Name
       value: corrupted Stalaknit klein

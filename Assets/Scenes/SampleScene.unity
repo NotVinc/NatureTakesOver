@@ -64376,7 +64376,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 601378403342184146, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
       propertyPath: m_Volume
-      value: 0
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2034147525846591869, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
       propertyPath: m_AnchorMax.x
@@ -64614,6 +64614,30 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8655713377204995332, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
+      propertyPath: footSteps.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655713377204995332, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
+      propertyPath: 'footSteps.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 89fab0ad3ad9a5040aca6aa711b7ab91, type: 3}
+    - target: {fileID: 8655713377204995332, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
+      propertyPath: 'footSteps.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f083b319ebf98743a7102585408aed3, type: 3}
+    - target: {fileID: 8655713377204995332, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
+      propertyPath: 'footSteps.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 34e998353d7f9d4409924f57744ca16f, type: 3}
+    - target: {fileID: 8655713377204995332, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
+      propertyPath: 'footSteps.Array.data[3]'
+      value: 
+      objectReference: {fileID: 8300000, guid: d62d7a0a94aa567438fb471d911230e4, type: 3}
+    - target: {fileID: 8655713377204995332, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
+      propertyPath: 'footSteps.Array.data[4]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 43fc4d2f265a6514e942e081fd2eb96b, type: 3}
     - target: {fileID: 8672083936178765169, guid: 34a500f59ecc4204fb1c50d08973ec9e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

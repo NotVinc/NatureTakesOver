@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class FootstepsEvent : MonoBehaviour
 {
-    public List<GroundAudio> audioGround;
+    public List<AudioClip> footSteps;
     private PlayerController playerController;
 
     private void Awake()
@@ -15,23 +15,7 @@ public class FootstepsEvent : MonoBehaviour
 
     public void Footstep()
     {
-        string tag = string.Empty;
-
-
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(playerController.groundCheck.position, playerController.groundCheckRadius);
-        foreach (Collider2D col in colliders)
-        {
-            foreach(GroundAudio audio in audioGround)
-            {
-                if (col.tag == audio.tag)
-                {
-                    GetComponent<AudioSource>().clip = audio.audioClips[UnityEngine.Random.Range(0, audio.audioClips.Length)];
-                    break;
-
-                }
-            }
-        }
-
+        GetComponent<AudioSource>().clip = footSteps[UnityEngine.Random.Range(0, footSteps.Count)];
         GetComponent<AudioSource>().Play();
     }
 

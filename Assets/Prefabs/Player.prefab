@@ -2130,11 +2130,25 @@ MonoBehaviour:
   audioGround:
   - tag: Stone
     audioClips:
-    - {fileID: 8300000, guid: 6d1d738823aedf641b53f327b0599b65, type: 3}
-    - {fileID: 8300000, guid: 35bb0f100c380584dbc3d7e414e2e0fe, type: 3}
-    - {fileID: 8300000, guid: af0b01c417336394daeb4b8c4703d9c2, type: 3}
-    - {fileID: 8300000, guid: ddb0af2206d2f8542b1f1bd1d0554510, type: 3}
-    - {fileID: 8300000, guid: 0c1acfc7c0193654894265eeac211500, type: 3}
+    - {fileID: 8300000, guid: 89fab0ad3ad9a5040aca6aa711b7ab91, type: 3}
+    - {fileID: 8300000, guid: 0f083b319ebf98743a7102585408aed3, type: 3}
+    - {fileID: 8300000, guid: 34e998353d7f9d4409924f57744ca16f, type: 3}
+    - {fileID: 8300000, guid: d62d7a0a94aa567438fb471d911230e4, type: 3}
+    - {fileID: 8300000, guid: 43fc4d2f265a6514e942e081fd2eb96b, type: 3}
+  - tag: Ice
+    audioClips:
+    - {fileID: 8300000, guid: ae0c1b3c83f5fcd409b870837df16d8d, type: 3}
+    - {fileID: 8300000, guid: ece6dda0bc6cec2418b996f570772ac4, type: 3}
+    - {fileID: 8300000, guid: 06722cb0e41ef4c4d992710d064eec42, type: 3}
+    - {fileID: 8300000, guid: d0af4fe4ceedb6549b0f3029ec181657, type: 3}
+    - {fileID: 8300000, guid: a4e1134ef9550b74fbd85f12811d1dba, type: 3}
+  - tag: Grass
+    audioClips:
+    - {fileID: 8300000, guid: 37206b48e4ee41c48bf9892fbb682f4d, type: 3}
+    - {fileID: 8300000, guid: ab1e884a4d3e7bd49b21b613ae8d9e2c, type: 3}
+    - {fileID: 8300000, guid: 82603b700637fbf4682ffdd6ea2f6c64, type: 3}
+    - {fileID: 8300000, guid: 399b62393b8bbdc43867b67162d2aaa1, type: 3}
+    - {fileID: 8300000, guid: cad8faa7798755e4c8cf20a9ba08d3c5, type: 3}
 --- !u!95 &3330348824558536272
 Animator:
   serializedVersion: 7

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8648307561529136724}
   - component: {fileID: 7140100870332613562}
   - component: {fileID: 4311652881223091755}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CorruptedMushroom 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4418073049400565140}
   - component: {fileID: 4421716027675000253}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Light 2D (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3474242661310616303}
   - component: {fileID: 1758616261021749359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Light 2D (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7315664604745065489}
   - component: {fileID: 7987933102234203618}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6573017380962767745}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plane Transform 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,6 +516,10 @@ PrefabInstance:
     - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
       propertyPath: m_Name
       value: Effect Explosion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
       propertyPath: m_IsActive

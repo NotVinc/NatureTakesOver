@@ -263,6 +263,10 @@ PrefabInstance:
       value: Effect Explosion
       objectReference: {fileID: 0}
     - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}

@@ -709,6 +709,9 @@ MonoBehaviour:
   interactRadius: 1.5
   interactStart: {fileID: 743016465320335736}
   unlockedPlanting: 1
+  ignoreLayer:
+    serializedVersion: 2
+    m_Bits: 128
   plantPrefab: {fileID: 3432361845096609420, guid: 1912d7601bd77a640a46db2dfa89ded9, type: 3}
   plantDistance: 1
   groundRayLength: 3

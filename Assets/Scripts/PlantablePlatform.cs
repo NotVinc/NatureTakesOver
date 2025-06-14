@@ -44,6 +44,7 @@ public class PlantablePlatform : MonoBehaviour
 
     public void DestoryMe()
     {
+        RemoveMyEffect();
         Destroy(this.gameObject);
     }
 

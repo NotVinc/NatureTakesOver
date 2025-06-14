@@ -10,7 +10,7 @@ public class BackgroundFollow : MonoBehaviour
         offset = transform.position - player.position;
     }
 
-    void LateUpdate()
+    void FixedUpdate()
     {
         transform.position = player.position + offset;
     }

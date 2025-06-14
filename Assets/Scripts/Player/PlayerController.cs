@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Planting")]
     public bool unlockedPlanting = true;
+    public LayerMask ignoreLayer;
     public GameObject plantPrefab;
     public float plantDistance = 1f;
     public float groundRayLength = 3f;
@@ -198,8 +199,8 @@ public class PlayerController : MonoBehaviour
                     Mathf.Round(hit.point.y + 0.5f),
                     0f
                 );
-
-                Collider2D existing = Physics2D.OverlapCircle(plantPos, plantCheckRadius);
+                int invertedMask = ~ignoreLayer;
+                Collider2D existing = Physics2D.OverlapCircle(plantPos, plantCheckRadius, invertedMask);
                 if (existing == null)
                 {
                     if (lastPlant != null)

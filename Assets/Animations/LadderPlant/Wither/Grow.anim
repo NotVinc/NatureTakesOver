@@ -1303,6 +1303,62 @@ AnimationClip:
     floatParameter: 0.25
     intParameter: 0
     messageOptions: 0
+  - time: 5
+    functionName: RemoveMyEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.99
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.133333
+    functionName: RemoveMyEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.88
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.266667
+    functionName: RemoveMyEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.77
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.4166665
+    functionName: RemoveMyEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.66
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.55
+    functionName: RemoveMyEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.55
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.7
+    functionName: RemoveMyEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.44
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.8
+    functionName: RemoveMyEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.33
+    intParameter: 0
+    messageOptions: 0
+  - time: 5.9333334
+    functionName: RemoveMyEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.15
+    intParameter: 0
+    messageOptions: 0
   - time: 6.0333333
     functionName: DestoryMe
     data: 

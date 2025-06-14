@@ -34,8 +34,6 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius = 0.1f;
     public LayerMask[] groundLayer;
 
-    [Header("Collectable Text")]
-    public TextMeshProUGUI collectableText;
 
 
     [Header("Inventory")]
@@ -91,7 +89,6 @@ public class PlayerController : MonoBehaviour
 
         canCoyote = Time.time - lastGroundedTime <= coyoteTime;
 
-        collectableText.SetText(currentCollectables.ToString());
 
         HandleSpriteFlip();
         CheckForInteractables();

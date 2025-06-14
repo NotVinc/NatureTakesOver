@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5194504900815084635}
   - component: {fileID: 6106616678155919940}
   - component: {fileID: 6209407036387021873}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: "Corrupted Stalaktit gro\xDF"
   m_TagString: Deathzone
   m_Icon: {fileID: 0}
@@ -212,6 +212,10 @@ PrefabInstance:
     - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
       propertyPath: m_Name
       value: Effect Explosion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
       propertyPath: m_IsActive

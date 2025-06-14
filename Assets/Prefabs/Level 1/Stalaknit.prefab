@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1780043758036361670}
   - component: {fileID: 220511948469382062}
   - component: {fileID: 7127353507935455562}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stalaknit
   m_TagString: Deathzone
   m_Icon: {fileID: 0}

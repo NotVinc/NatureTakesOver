@@ -24,9 +24,9 @@ public class PlantablePlatform : MonoBehaviour
         }
     }
 
-    public void RemoveMyEffect()
+    public void RemoveMyEffect(float percentage = 1f)
     {
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, clearRadius);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, clearRadius * percentage);
         foreach (Collider2D col in colliders)
         {
             CorruptedPlant plant = col.gameObject.GetComponent<CorruptedPlant>();

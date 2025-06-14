@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6712789968770705278}
   - component: {fileID: 7251876949881623395}
   - component: {fileID: 7624458161963075549}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: "Stalaktit gro\xDF (1)"
   m_TagString: Deathzone
   m_Icon: {fileID: 0}

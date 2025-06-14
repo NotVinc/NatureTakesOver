@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2475325420662073254}
   - component: {fileID: 8648307561529136724}
   - component: {fileID: 4447224921385829534}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eiszapfen
   m_TagString: Deathzone
   m_Icon: {fileID: 0}

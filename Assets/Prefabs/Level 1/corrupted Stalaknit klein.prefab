@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 775565597549588181}
   - component: {fileID: 5389040296078773592}
   - component: {fileID: 1088343517576678044}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: corrupted Stalaknit klein
   m_TagString: Deathzone
   m_Icon: {fileID: 0}
@@ -215,6 +215,10 @@ PrefabInstance:
     - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
       propertyPath: m_Name
       value: Effect Explosion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7700273977603466631, guid: b2d6c6afc5c4d394e95007c94e3a37f3, type: 3}
       propertyPath: m_IsActive

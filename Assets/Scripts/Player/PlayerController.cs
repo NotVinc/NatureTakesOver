@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Sound effects")]
     public AudioSource plantSFX;
+    public AudioSource reloadWater;
 
     [HideInInspector] public float speedMultiplier = 1f;
     [HideInInspector] public int currentCollectables = 0;
@@ -111,6 +112,7 @@ public class PlayerController : MonoBehaviour
     {
         unlockedPlanting = true;
         anim.SetTrigger("refillWater");
+        reloadWater.Play();
     }
 
     private void HandleSpriteFlip()

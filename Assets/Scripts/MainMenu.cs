@@ -12,7 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        StartCoroutine(waitBeforeQuit());
+        Application.Quit();
     }
 
     IEnumerator waitBeforeQuit()

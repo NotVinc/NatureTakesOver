@@ -107,6 +107,12 @@ public class PlayerController : MonoBehaviour
         return grounded;
     }
 
+    public void RefillWater()
+    {
+        unlockedPlanting = true;
+        anim.SetTrigger("refillWater");
+    }
+
     private void HandleSpriteFlip()
     {
         if (moveInput.x > 0.01f && transform.localScale != new Vector3(1, transform.localScale.y, transform.localScale.z))

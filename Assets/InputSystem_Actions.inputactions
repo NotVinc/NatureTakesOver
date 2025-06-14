@@ -253,10 +253,10 @@
                 {
                     "name": "",
                     "id": "67630738-cede-4ed8-b1cf-d865202ccb3c",
-                    "path": "",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Gamepad",
                     "action": "PlantFlower",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -275,7 +275,7 @@
                 {
                     "name": "",
                     "id": "6189b600-6154-4341-b753-ffa3112c9f0e",
-                    "path": "",
+                    "path": "<Gamepad>/start",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
